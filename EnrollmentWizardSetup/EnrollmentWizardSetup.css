@@ -1,0 +1,153 @@
+body
+{
+}
+
+.FullPage
+{
+    width:775px;     
+}
+
+.Section
+{
+    width:755px;  
+    padding-top:10px;
+    padding-left:10px;
+    padding-right:10px;   
+}
+
+.Section_no_padding
+{
+    width:765px;
+}
+
+.SectionNoTop
+{
+    width:755px;      
+    padding-left:10px;
+    padding-right:10px;   
+    float:left
+}
+
+.InnerSection
+{
+    width:755px;  
+}
+
+.Description
+{
+    width:300px;
+    float:left;
+    background-color : Yellow;
+}
+
+.EnrollmentType
+{
+    width:300px;
+    float:left;
+    background-color : Fuchsia;
+}
+
+
+
+A:link { COLOR: #24248F; TEXT-DECORATION: none }
+A:visited { COLOR: #24248F; TEXT-DECORATION: none }
+A:hover { COLOR: red; TEXT-DECORATION: none }
+
+
+.FontSmall{
+	font-family: Arial, Sans-Serif;
+	font-size: 9pt;
+}
+
+.FontSmall10{
+	font-family: Arial, Sans-Serif;
+	font-size: 10pt;
+}
+
+.FontMedium{
+	font-family: Arial, Sans-Serif;
+	font-size: 11pt;
+}
+
+.FontLarge{
+	font-family: Arial, Sans-Serif;
+	font-size: 13pt;
+}
+
+.FontTitle{
+	font-family: Arial Narrow, Sans-Serif;
+	font-size: 20pt;
+}
+
+.FontSmallTitle{
+	font-family: Arial Narrow, Sans-Serif;
+	font-size: 14pt;
+}
+
+.Blank10
+{
+    width:775px;
+    height:10px;
+    float:left;
+}
+
+.Row
+{
+    width:755px;
+    float:left;
+}
+
+.LeftRegion
+{
+    width:150px;
+    float:left;
+}
+
+.RightRegion
+{
+    width:600px;
+    float:left;
+}
+.leftGrid
+{
+    width:275;
+    float:left;
+}
+
+.RighGrid
+{
+    padding-left:5px;
+    width:470px;
+    float:left;
+}
+.StatusInputRowTitle
+{
+    width:760px; 
+    float:left;  
+}
+
+.closed
+{
+    height:20px;
+}
+
+.InputRow
+{
+    width:750px;
+    padding-left:5px; 
+    padding-right:5px; 
+    float:left;  
+}
+
+.InputLabel
+{
+    width:160px;
+    float:left; 
+    vertical-align: middle
+}
+
+.InputValue
+{
+    width:220px;
+    float:left; 
+}

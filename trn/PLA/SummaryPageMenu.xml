@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Menu xmlns=''  DefaultGroupCssClass='TemplateMenuGroup' MenuItemCssClass='TemplateMenuItem' MenuItemOverCssClass='TemplateMenuItemOver' MenuCssClass='TemplateMenu' ScriptPath='/karama/Scripts'  ImagePath='/karama/Images' CssFile='/Karama/styles/TemplateMenu.css' UseArrowForNoOnClick='False'  DefaultItemHeight='18' TabView='True'  Layout='Horizontal' OpenOnClick='False'>
+  <Group xmlns="">
+    <Item ID="1" Caption="Vendor Information" ItemWidth="190" PostBackValue="1" Enabled="True">      
+    </Item>
+    <Item ID="2" Caption="Course Dates &amp; Times" ItemWidth="200" PostBackValue="2" Enabled="True">      
+    </Item>
+    <Item ID="3" Caption="Training Types &amp; Needs" ItemWidth="200" PostBackValue="3" Enabled="True">      
+    </Item>
+    <Item ID="4" Caption="Expenses" ItemWidth="130" PostBackValue="4" Enabled="True">      
+    </Item>
+  </Group>
+</Menu>

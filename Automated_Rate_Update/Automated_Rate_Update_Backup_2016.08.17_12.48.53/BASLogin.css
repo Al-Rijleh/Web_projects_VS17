@@ -1,0 +1,168 @@
+﻿.FullPageMenu
+{
+     width:800px;
+    float:left;  
+    padding-left: 5px;
+    padding-right: 5px;  
+}
+
+.FullRowMenu
+{
+    width:765px;
+    float:left;  
+    padding-left: 5px;
+    padding-right: 5px;   
+}
+
+.margingbottom
+{
+    margin-bottom:10px;    
+}
+
+.margingbottom20
+{
+    padding-bottom:20px
+}
+
+.margingtop
+{
+    margin-top:10px;    
+}
+
+.margintop20
+{
+    padding-top:20px
+}
+
+
+.BordrBottom
+{
+    border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #D6DEEB
+}
+
+.BordrTop
+{
+    border-top-style: solid; border-top-width: 1px; border-top-color: #D6DEEB
+}
+
+
+.masterwidth
+{
+    width: 730px;
+}
+
+.FullPage
+{
+    margin-top:30px;
+    width:775px;     
+}
+
+.FullPageNoMargin
+{
+    width:775px;     
+}
+
+.InputRow
+{
+    width:750px;
+    padding-left:5px; 
+    padding-right:5px; 
+    float:left;  
+}
+
+.fontsmall{
+	font-family: Arial, Sans-Serif;
+	font-size: 9pt;
+}
+
+.InputLabel
+{
+    width:160px;
+    float:left; 
+    vertical-align: middle
+}
+
+.InputValue
+{
+    width:580px;
+    float:left; 
+}
+
+.ChangeCommand
+{
+    width:100px;
+    float:left; 
+    vertical-align: middle
+}
+
+.InputValidator
+{
+    width:350px;
+    float:left; 
+    vertical-align: middle
+}
+
+.colorred
+{
+    background-color:Red;
+    color:White;
+}
+    
+.colowhite
+{
+    background-color:White;
+    color:Black;
+}  
+
+.coloShde
+{
+    background-color:#E9DEDE;
+    color:Black;
+}
+
+.RemovedColor
+{
+    background-color : Red;
+}
+
+.ActiverColor
+{
+    background-color : White;
+}
+
+.NewActiveColor
+{
+    background-color : Green;
+}
+
+.marginbottom2
+{    
+    margin-bottom:2px;
+}
+
+.marginbottom5
+{    
+    margin-bottom:5px;
+}
+
+.marginbottom10
+{    
+    margin-bottom:10px;
+}
+
+.marginbottom20
+{
+    margin-bottom:20px;
+}
+
+.paddingbottomm5
+{
+    padding-bottom:5px;
+}
+
+.bottomline
+{
+    border-bottom-style: solid; 
+    border-bottom-width: 1px; 
+    border-bottom-color: #000000
+}

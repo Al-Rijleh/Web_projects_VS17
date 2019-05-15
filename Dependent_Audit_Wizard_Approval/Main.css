@@ -1,0 +1,249 @@
+﻿body {
+}
+
+.Fonterror
+{
+    font-family: Arial, Sans-Serif;
+	font-size: 10pt;
+    font-weight:bold;
+    color:Maroon;
+    background-color: Yellow;
+	BORDER-TOP-WIDTH: 1px; 
+	BORDER-LEFT-WIDTH: 1px; 
+	BORDER-LEFT-COLOR: #000000; 
+	BORDER-BOTTOM-WIDTH: 1px; 
+	BORDER-BOTTOM-COLOR: #000000; 
+	BORDER-TOP-COLOR: #000000; 
+	BORDER-RIGHT-WIDTH: 1px; 
+	BORDER-RIGHT-COLOR: #000000;
+}
+
+
+.FullPage1000
+{
+    width:1010px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.PDFSide
+{
+    width:640px;
+    float:left;
+}
+
+.DateSide
+{
+    width:360px;
+    float:right;
+}
+
+.DataSideLabel
+{
+    width:100px;
+    float:left;
+    font-weight:bold;
+}
+
+.DataSideInput
+{
+    width:260px;
+    float:left;
+}
+
+.FullPage
+{
+    width:984px;     
+}
+
+.InsidemainContentDiv
+{
+    width:725px;       
+    float:left; 
+}
+
+.FontSmall{
+	font-family: Arial, Sans-Serif;
+	font-size: 9pt;	
+}
+
+.FontBold
+{
+    font-weight:bold
+}
+
+.FontSmall10{
+	font-family: Arial, Sans-Serif;
+	font-size: 10pt;
+}
+
+.FontMedium{
+	font-family: Arial, Sans-Serif;
+	font-size: 11pt;
+}
+
+.FontLarge{
+	font-family: Arial, Sans-Serif;
+	font-size: 13pt;
+}
+
+.FontTitle{
+	font-family: Arial Narrow, Sans-Serif;
+	font-size: 20pt;
+}
+
+.FontSmallTitle{
+	font-family: Arial Narrow, Sans-Serif;
+	font-size: 14pt;
+}
+
+.FontRequired
+{
+    font-weight:bolder;
+    color:Maroon;
+}
+
+.MainRightColumnNoPadding
+{
+    width: 200px; 
+    height: 405px;
+    background-color:  #F5F8F8;
+    float:left; 
+}
+
+.MainRightColumn
+{
+    width: 180px; 
+    height: 405px;
+    background-color:  #F5F8F8;
+    float:left;
+    padding-left:10px;
+    padding-right:10px;    
+}
+
+.Blank10
+{
+    width:174px;
+    height:10px;
+    float:left;
+}
+
+.RightColumn
+{
+    width: 180px; 
+    background-color: #F5F8F8;
+    float:left;
+    height: 15px;
+}
+
+.DataPageNoFloat
+{
+    width:725px;   
+    background-color:  #F5F8F8; 
+    padding-left: 25px;
+    float:left; 
+}
+
+.DataPageNoFloatBlank
+{
+    width:725px;   
+    background-color:  #F5F8F8; 
+    padding-left: 25px;
+    float:left; 
+    height:5px;
+}
+
+.Lable
+{
+    width:175px;
+    float:left; 
+    font-weight:bold;
+}
+
+.Lable2
+{
+    width:225px;
+    float:left; 
+    font-weight:bold;
+}
+
+.Input
+{
+     width:245px;
+     float:left; 
+     font-size: 9pt; 
+	color: #000000; 
+	font-family: Arial, Sans-Serif; 
+}
+
+.HorLine
+{
+    width:320px;
+}
+
+.validator
+{
+    float:left; 
+}
+
+.DataPage
+{
+    width:356px;
+    float:left;     
+}
+
+.LeftPanel
+{
+    width:275px;
+    float:left;  
+}
+
+.RightPanel
+{
+    width:275px;
+    float:right;  
+}
+
+.BlankPanel
+{
+    width:275px;
+    height:10px;
+}
+
+A:link { COLOR: #24248F; TEXT-DECORATION: none }
+A:visited { COLOR: #24248F; TEXT-DECORATION: none }
+A:hover { COLOR: red; TEXT-DECORATION: none }
+
+.Input_Control {
+	font-size: 9pt; 
+	color: #000000; 
+	font-family: Arial, Sans-Serif; 
+	background-color: #FFFFFF;
+		
+}
+
+
+.DepNotProcessed
+{
+    font-size: 9pt;
+    font-weight: bold; 
+	color: #FFFFFF; 
+	font-family: Arial, Sans-Serif; 
+	background-color: Red;
+	width:160;
+}
+
+.marginbuttom10
+{
+    margin-bottom : 10px
+}
+
+.margintop10
+{
+    margin-top : 10px
+}
+
+.marginleft5
+{
+    margin-left : 7px;
+}

@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2E0826C4-D711-4E91-8281-C711CE832FFF}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Dependents_Maintenance</RootNamespace>
+    <AssemblyName>Dependents_Maintenance</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <TargetFrameworkProfile />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=1.0.20229.20821, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Program Files\Microsoft ASP.NET\AjaxControl\SampleWebSite\Bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="AJAXExtensionsToolbox, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="BasStar, Version=1.0.3240.18894, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\BasStar2008\obj\Debug\BasStar.dll</HintPath>
+    </Reference>
+    <Reference Include="BASUSA, Version=1.0.3045.25153, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\BAS_Classes\BASUSA\bin\Debug\BASUSA.dll</HintPath>
+    </Reference>
+    <Reference Include="Bas_Utility, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Bas_Utility\bin\Bas_Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="ErrorHandeler_10">
+      <HintPath>..\ErrorHandeler_10\bin\ErrorHandeler_10.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.DataAccess">
+      <HintPath>..\..\..\Users\M_Al-Rijleh\source\repos\LocalLog\bin\Oracle.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLStatic, Version=1.0.4617.27704, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\BAS_Classes\SQLStatic\obj\Release\SQLStatic.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Extensions.Design" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Telerik.Web.Design, Version=2019.1.215.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Users\M_Al-Rijleh\source\Telerik 2019 Dlls\Telerik.Web.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Web.Spreadsheet">
+      <HintPath>lib\RCAJAX\2019.1.215.40\AdditionalLibraries\Bin40\Telerik.Web.Spreadsheet.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Web.UI, Version=2019.1.215.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\RCAJAX\2019.1.215.40\Telerik.Web.UI.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Web.UI.Skins, Version=2019.1.215.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\RCAJAX\2019.1.215.40\Telerik.Web.UI.Skins.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Core, Version=2019.1.213.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\RCAJAX\2019.1.215.40\AdditionalLibraries\Bin40\Telerik.Windows.Documents.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Flow, Version=2019.1.213.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\RCAJAX\2019.1.215.40\AdditionalLibraries\Bin40\Telerik.Windows.Documents.Flow.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Spreadsheet, Version=2019.1.213.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\RCAJAX\2019.1.215.40\AdditionalLibraries\Bin40\Telerik.Windows.Documents.Spreadsheet.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml, Version=2019.1.213.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\RCAJAX\2019.1.215.40\AdditionalLibraries\Bin40\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Zip, Version=2019.1.213.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\RCAJAX\2019.1.215.40\AdditionalLibraries\Bin40\Telerik.Windows.Zip.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Template, Version=1.0.3093.16374, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Template\obj\Debug\Template.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AddEditDep.aspx" />
+    <Content Include="AddEditDepLimited.aspx" />
+    <Content Include="ApproveDep.aspx" />
+    <Content Include="Blank.aspx" />
+    <Content Include="Coverage.aspx" />
+    <Content Include="Declaration_Form.aspx" />
+    <Content Include="DefaultOld.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Deo_RemoveCoverages_Request_Doc.aspx" />
+    <Content Include="Dep_List.aspx" />
+    <Content Include="Dep_Main.css" />
+    <Content Include="Global.asax" />
+    <Content Include="JavaScript1.js" />
+    <Content Include="Message.aspx" />
+    <Content Include="PageManager.aspx" />
+    <Content Include="Reactivate.aspx" />
+    <Content Include="RemoveDepNew.aspx" />
+    <Content Include="RemoveDep.aspx" />
+    <Content Include="StarText.aspx" />
+    <Content Include="Styles\Main.css" />
+    <Content Include="Styles\main2.css" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="WebForm1.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddEditDep.aspx.cs">
+      <DependentUpon>AddEditDep.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddEditDep.aspx.designer.cs">
+      <DependentUpon>AddEditDep.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddEditDepLimited.aspx.cs">
+      <DependentUpon>AddEditDepLimited.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddEditDepLimited.aspx.designer.cs">
+      <DependentUpon>AddEditDepLimited.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ApproveDep.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ApproveDep.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ApproveDep.aspx.designer.cs">
+      <DependentUpon>ApproveDep.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Blank.aspx.cs">
+      <DependentUpon>Blank.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Blank.aspx.designer.cs">
+      <DependentUpon>Blank.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Coverage.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Coverage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Coverage.aspx.designer.cs">
+      <DependentUpon>Coverage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Data.cs" />
+    <Compile Include="Declaration_Form.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Declaration_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Declaration_Form.aspx.designer.cs">
+      <DependentUpon>Declaration_Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DefaultOld.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>DefaultOld.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DefaultOld.aspx.designer.cs">
+      <DependentUpon>DefaultOld.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Deo_RemoveCoverages_Request_Doc.aspx.cs">
+      <DependentUpon>Deo_RemoveCoverages_Request_Doc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Deo_RemoveCoverages_Request_Doc.aspx.designer.cs">
+      <DependentUpon>Deo_RemoveCoverages_Request_Doc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dep_List.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Dep_List.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dep_List.aspx.designer.cs">
+      <DependentUpon>Dep_List.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Message.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Message.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Message.aspx.designer.cs">
+      <DependentUpon>Message.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PageManager.aspx.cs">
+      <DependentUpon>PageManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PageManager.aspx.designer.cs">
+      <DependentUpon>PageManager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reactivate.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Reactivate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reactivate.aspx.designer.cs">
+      <DependentUpon>Reactivate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RemoveDepNew.aspx.cs">
+      <DependentUpon>RemoveDepNew.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RemoveDepNew.aspx.designer.cs">
+      <DependentUpon>RemoveDepNew.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RemoveDep.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>RemoveDep.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RemoveDep.aspx.designer.cs">
+      <DependentUpon>RemoveDep.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StarText.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>StarText.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StarText.aspx.designer.cs">
+      <DependentUpon>StarText.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\PublishProfiles\Profile1.pubxml" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49573</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost//web_projects/Dependents_Maintenance/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

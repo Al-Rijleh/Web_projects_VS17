@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="_UpgradeWizard_Files\UpgradeWizardLog.xslt"?>
+<log>
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\inetpub\web_projects_VS13\StartLifeEventv1\StartLifeEventv1.csproj" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\inetpub\web_projects_VS13\StartLifeEventv1\Default.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\inetpub\web_projects_VS13\StartLifeEventv1\Default.aspx" />
+  <event action="Analyze" type="Success" name="Default.aspx" path="C:\inetpub\web_projects_VS13\StartLifeEventv1\Default.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\inetpub\web_projects_VS13\StartLifeEventv1\FaxPage.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\inetpub\web_projects_VS13\StartLifeEventv1\FaxPage.aspx" />
+  <event action="Analyze" type="Success" name="FaxPage.aspx" path="C:\inetpub\web_projects_VS13\StartLifeEventv1\FaxPage.aspx" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\inetpub\web_projects_VS13\StartLifeEventv1\ProofPage.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\inetpub\web_projects_VS13\StartLifeEventv1\ProofPage.aspx" />
+  <event action="Analyze" type="Success" name="ProofPage.aspx" path="C:\inetpub\web_projects_VS13\StartLifeEventv1\ProofPage.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\inetpub\web_projects_VS13\StartLifeEventv1\ViewFax.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\inetpub\web_projects_VS13\StartLifeEventv1\ViewFax.aspx" />
+  <event action="Analyze" type="Success" name="ViewFax.aspx" path="C:\inetpub\web_projects_VS13\StartLifeEventv1\ViewFax.aspx" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\inetpub\web_projects_VS13\StartLifeEventv1\Web.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\inetpub\web_projects_VS13\StartLifeEventv1\Web.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\inetpub\web_projects_VS13\StartLifeEventv1\Web.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\inetpub\web_projects_VS13\StartLifeEventv1\Web.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\inetpub\web_projects_VS13\StartLifeEventv1\Web.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\inetpub\web_projects_VS13\StartLifeEventv1\Web.config" />
+  <event action="Analyze" type="Success" name="Web.config" path="C:\inetpub\web_projects_VS13\StartLifeEventv1\Web.config" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\inetpub\web_projects_VS13\StartLifeEventv1\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\inetpub\web_projects_VS13\StartLifeEventv1\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\inetpub\web_projects_VS13\StartLifeEventv1\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\inetpub\web_projects_VS13\StartLifeEventv1\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\inetpub\web_projects_VS13\StartLifeEventv1\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\inetpub\web_projects_VS13\StartLifeEventv1\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Web.Debug.config" path="C:\inetpub\web_projects_VS13\StartLifeEventv1\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\inetpub\web_projects_VS13\StartLifeEventv1\Web.Release.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\inetpub\web_projects_VS13\StartLifeEventv1\Web.Release.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\inetpub\web_projects_VS13\StartLifeEventv1\Web.Release.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\inetpub\web_projects_VS13\StartLifeEventv1\Web.Release.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\inetpub\web_projects_VS13\StartLifeEventv1\Web.Release.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\inetpub\web_projects_VS13\StartLifeEventv1\Web.Release.config" />
+  <event action="Analyze" type="Success" name="Web.Release.config" path="C:\inetpub\web_projects_VS13\StartLifeEventv1\Web.Release.config" />
+  <event action="Analyze" type="Success" name="StartLifeEventv1" path="C:\inetpub\web_projects_VS13\StartLifeEventv1\StartLifeEventv1.csproj" />
+  <event action="Analyze" type="Success" name="StartLifeEventv1" path="C:\inetpub\web_projects_VS13\StartLifeEventv1\StartLifeEventv1.sln" />
+  <event action="Backup" type="Success" name="StartLifeEventv1" path="C:\inetpub\web_projects_VS13\StartLifeEventv1\StartLifeEventv1.csproj" />
+  <event action="Upgrade" type="Success" name="Assembly References" path="C:\inetpub\web_projects_VS13\StartLifeEventv1\StartLifeEventv1.csproj" />
+  <event action="Upgrade" type="Success" name="Register Directives" path="C:\inetpub\web_projects_VS13\StartLifeEventv1\ViewFax.aspx" />
+  <event action="Upgrade" type="Success" name="ViewFax.aspx" path="C:\inetpub\web_projects_VS13\StartLifeEventv1\ViewFax.aspx" />
+  <event action="Upgrade" type="Success" name="Assembly References" path="C:\inetpub\web_projects_VS13\StartLifeEventv1\Web.config" />
+  <event action="Upgrade" type="Success" name="Web.config" path="C:\inetpub\web_projects_VS13\StartLifeEventv1\Web.config" />
+  <event action="Upgrade" type="Success" name="StartLifeEventv1" path="C:\inetpub\web_projects_VS13\StartLifeEventv1\StartLifeEventv1.csproj" />
+  <event action="Upgrade" type="Success" name="StartLifeEventv1" path="C:\inetpub\web_projects_VS13\StartLifeEventv1\StartLifeEventv1.sln" />
+</log>

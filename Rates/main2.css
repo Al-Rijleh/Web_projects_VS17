@@ -1,0 +1,79 @@
+﻿body { font-family:Arial; font-size:9pt; color:#2F2F2F;  }
+.leftMenuHeader{font-size: 10pt; color:#004080; font-weight:bolder;}
+.mainContentDiv{width:780px;padding:5px 5px 5px 5px; font-family:Arial; font-size:9pt; color:#2F2F2F; }
+.pageTitle{font-size: 12pt; font-weight:bolder; padding-bottom:3px; padding-top:3px;}
+.dataSetctionTitle{font-size: 10pt; color:#964B4B; font-weight:bolder; padding-top:4px; padding-bottom:4px;}
+.dataSubSetctionTitle{font-weight:bolder;font-family:Arial; font-size:9pt; padding-top:3px; padding-bottom:3px; font-style:italic}
+hr{border: solid 1px #D6DEEB;}
+.errorRed{font-family:Arial; font-size:9pt; color:Red; padding-left:2px; }
+input[type=text]{ width: 200px; font-size:9pt; font-family:Arial;}
+table{font-family:Arial; font-size:9pt; color:#2F2F2F;}
+td{font-family:Arial; font-size:9pt; color:#2F2F2F;}
+.textFont{font-family:Arial; font-size:9pt; color:#2F2F2F;
+    height: 25px;
+}
+.separatedSpace{padding-top:5px; padding-bottom:5px;}
+.imgIcon{width:18px; height:18px}
+.titleColor{color:#964B4B;}
+a:link    {color:#2F2F2F; text-decoration:none; line-height:16px;}
+a:visited {color:#2F2F2F; text-decoration:underline; line-height:16px;}
+a:hover   {color:#FFCC66; text-decoration:underline; line-height:16px;}
+
+#sidebar {
+	float:right;
+	width:320px;	
+	font-size:9pt;
+	background:#F5F7FA;
+	border:solid 1px #D6DEEB;
+	border-radius:10px;
+	padding:10px;
+	margin-left:10px;	
+}
+
+.sidebarTxt
+{
+    padding-left:10px;
+}
+
+.PandDecoration
+{    
+    padding-bottom:10px;
+    margin-top:10px;
+}
+
+.FullPage
+{
+    margin-top:30px;
+    width:775px;     
+}
+
+.FullPageNoMargin
+{
+    width:775px;     
+}
+
+.InputRow
+{
+    width:750px;
+    padding-left:5px; 
+    padding-right:5px; 
+    float:left;  
+}
+
+.fontsmall{
+	font-family: Arial, Sans-Serif;
+	font-size: 9pt;
+}
+
+.InputLabel
+{
+    width:160px;
+    float:left; 
+    vertical-align: middle
+}
+
+.InputValue
+{
+    width:574px;
+    float:left; 
+}

@@ -1,0 +1,28 @@
+<root>
+	
+
+	
+
+	<tools name="InsertToolbar" dockable="true" enabled="true" >
+		<tool name="AjaxSpellCheck"/>	
+	</tools>
+
+	<tools enabled="true">		
+		<tool name="Undo" />
+		<tool name="Redo" />
+		<tool separator="true"/>
+		<tool name="Cut" />
+		<tool name="Copy" />
+		<tool name="Paste" shortcut="CTRL+!"/>
+		<tool separator="true"/>	
+		<tool name="Print" />
+		<tool name="FindAndReplace" />
+		<tool separator="true"/>		
+		<tool name="InsertHorizontalRule" />		
+		<tool separator="true"/>
+		<tool separator="true"/>
+		<tool name="InsertOrderedList" />
+		<tool name="InsertUnorderedList"/>
+	</tools>
+	
+</root>

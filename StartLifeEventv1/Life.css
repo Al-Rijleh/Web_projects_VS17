@@ -1,0 +1,330 @@
+﻿
+/*.marginT {            
+            display: block;
+            padding-top: 45%;
+        }*/
+
+.margin30T {            
+            display: block;
+            padding-top: 35%;
+        }
+
+.marginT20 {            
+            display: block;
+            padding-top: 20%;
+        }
+
+.PandlMarginn{
+    margin-top :5px;
+    margin-right:5px;
+    margin-bottom:5px;
+    float: left
+}
+
+.marginTop20{
+    margin-top:20px;
+}
+
+.marginBottom10{
+    margin-bottom:10px;
+}
+
+.Paddingright10{
+    padding-right:10px;
+}
+
+.wrap  {
+            display:table-cell;
+    width:150px;
+    height:150px;
+    background-color: #CCCCCC;
+    vertical-align: middle; 
+    text-align: center;    
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 12px;
+    font-weight:bold;
+    text-align: center;    
+}
+
+.centerTavkeVertally
+{
+    display:table-cell;
+    text-align: center;
+    Float: right;
+    Padding:10px;
+
+}
+
+.ButtonSelected
+{
+    width:150px;
+    height:150px;
+    background-color: orange;
+    vertical-align: middle; 
+    text-align: center;
+    margin-right:5px;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 12px;
+    font-weight:bold;
+    line-height: 150px;
+    text-align: center;
+}
+
+.Cented
+{
+    width:1%;     
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+}
+
+
+
+.infotable{
+    width:95%;
+    /*height:200px;*/
+    /*border: 1px solid #000000;*/
+    margin-left:10px;
+}
+
+.infoCell{
+    /*height:20px;*/
+    width:50%;
+    /*margin-left:5px;*/
+    padding-left:5px;
+    text-align: left;
+}
+
+.LifeTable
+{
+    width: 70%;
+}
+
+.lefTableCell
+{
+    width: 30%;
+    text-align: left;
+    font-weight:bold;
+    color:#273473 ;
+}
+
+.TitleLabel
+{
+    font-weight:bold;
+    color:#273473 ;
+}
+
+.rightTableCell
+{
+    width: 70%;
+    text-align: left
+}
+
+.lefTableCellConfirm
+{
+    width: 12%;
+    text-align: left;
+    font-weight:bold;
+    color:#273473 ;
+     vertical-align: top;
+}
+
+
+.rightTableCellConfirm
+{
+    width: 88%;
+    text-align: left
+}
+
+.TopSpace30
+{
+    width:100%;
+    margin-top:30px;
+}
+
+.BottomSpace5
+{
+    margin-bottom :5px;
+}
+
+.FullPage
+{
+    width:100%;     
+}
+
+.RadPanelBarWidth
+{
+    width:100%;
+}
+
+.FullPage30
+{
+    width:35%;     
+}
+
+.FullPage70
+{
+    width:56%;     
+}
+
+.FullPage50
+{
+    width:50%;     
+}
+
+.FullPage45
+{
+    width:45%;     
+}
+
+.FullPage40
+{
+    width:40%;     
+}
+
+.HeaderTex
+{
+    margin-top:10px;
+}
+
+.wizatdPage{
+    width:100%; 
+}
+
+.errorRed{
+    font-family:Arial; 
+    font-size:9pt; 
+    color:Red; 
+    padding-left:2px; 
+}
+
+.iframeDivDim{
+    width:510px;
+    height:600px;
+}
+
+.proof{
+    width:510px;    
+}
+
+.proofbutton{
+    background-color:darkblue;
+    color:white;
+}
+
+.commentdiv{
+    width:70%;  
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.centerDiv{    
+    /*margin-right:auto;
+    margin-left:auto;*/
+    margin-left:10px;
+}
+
+.centerWiz{   
+     
+    margin-right:auto;
+    margin-left:auto;
+    width:70%;
+}
+
+.wizardStepHidden {
+  height:0px !important;
+  width:0px !important;
+  display:none !important;
+}
+
+.LeftFloat
+{
+    float: left;
+}
+
+.RightFloat
+{
+    float: right;
+}
+
+.bottomBorder{
+    border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000;
+}
+
+.RightBorder{
+    border-right-style: solid; border-right-width: 1px; border-right-color: #000000;
+}
+
+.button{
+    width:150px;
+    height:50px;   
+    font-family:Arial;
+    font-size:11pt;
+}
+
+.buttonblue{    
+    background-color:#83BBE5 !important;    
+}
+
+.buttongray{
+
+    background-color:#CCCCCC !important;
+}
+
+.leftRightTableCell
+{
+    width:1%;
+}
+
+.separatedSpace{padding-top:2px; padding-bottom:25px;}
+
+.decoratePading{
+    padding : 5px;
+}
+
+.Pading5{
+    padding : 5px;
+}
+
+
+.decorate{
+    box-shadow: 0px 2px 15px rgba(50, 50, 50, 0.6);
+    border-radius: 2px;
+
+  /*border-radius: 1px !important;
+  box-shadow: 0px 1px 3px rgba(50,50,50,0.5) !important;*/
+
+
+  /*padding: 10px !important;
+  display: inline-block;
+  background-color: #ffffff;
+  width: 500px;
+  margin-left: 15px;*/
+
+}
+
+.TipMasterWidth{
+    width:500px;
+}
+
+.TipDivWidth{
+    width:496px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.TipDivButtom
+{
+    width:228px;
+    padding-right: 10px;
+}
+
+.mnwidth {
+    min-width: 385px;
+}
+
+.left_right_margin_15
+{
+    margin-left:20px;
+    margin-right:20px;
+}

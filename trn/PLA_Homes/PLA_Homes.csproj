@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0102C543-0A63-48AD-B0F0-833FD4E3178D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>PLA_Homes</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>PLA_Homes</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <TargetFrameworkProfile />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxSHDocVw">
+      <Name>AxSHDocVw</Name>
+      <HintPath>..\..\..\inetpub\wwwroot\karamasoft\ultimatemenu\v3.2\designer\bin\AxSHDocVw.dll</HintPath>
+    </Reference>
+    <Reference Include="BasStar, Version=1.0.2985.20332, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\BasStar\obj\Debug\BasStar.dll</HintPath>
+    </Reference>
+    <Reference Include="BASUSA, Version=1.0.2981.15064, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\BAS_Classes\BASUSA\obj\Debug\BASUSA.dll</HintPath>
+    </Reference>
+    <Reference Include="Bas_Utility, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Bas_Utility\bin\Bas_Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="EnvDTE">
+      <Name>EnvDTE</Name>
+    </Reference>
+    <Reference Include="ErrorHandeler_10">
+      <HintPath>..\..\ErrorHandeler_10\bin\ErrorHandeler_10.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic">
+      <Name>Microsoft.VisualBasic</Name>
+    </Reference>
+    <Reference Include="Oracle.DataAccess, Version=10.2.0.100, Culture=neutral, PublicKeyToken=89b483f429c47342" />
+    <Reference Include="SHDocVw">
+      <Name>SHDocVw</Name>
+      <HintPath>..\..\..\inetpub\wwwroot\karamasoft\ultimatemenu\v3.2\designer\bin\SHDocVw.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLStatic, Version=1.0.3015.15648, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\BAS_Classes\SQLStatic\bin\Debug\SQLStatic.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Design">
+      <Name>System.Design</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Management">
+      <Name>System.Management</Name>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Template, Version=1.0.2981.15416, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Template\bin\Template.dll</HintPath>
+    </Reference>
+    <Reference Include="UltimateMenu">
+      <Name>ultimatemenu</Name>
+      <HintPath>..\..\..\inetpub\wwwroot\karamasoft\ultimatemenu\v3.2\designer\bin\ultimatemenu.dll</HintPath>
+    </Reference>
+    <Reference Include="UltimatePanel">
+      <Name>ultimatepanel</Name>
+      <HintPath>..\..\..\inetpub\wwwroot\karamasoft\ultimatepanel\v3.2\designer\bin\ultimatepanel.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Home1.aspx.cs">
+      <DependentUpon>Home1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MoreReports.aspx.cs">
+      <DependentUpon>MoreReports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SelectSupervisor.aspx.cs">
+      <DependentUpon>SelectSupervisor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Content Include="bin\AxSHDocVw.dll" />
+    <Content Include="bin\PLA_Homes.dll" />
+    <Content Include="bin\PLA_Homes.pdb" />
+    <Content Include="bin\SHDocVw.dll" />
+    <Content Include="bin\UltimateMenu.dll" />
+    <Content Include="bin\UltimatePanel.dll" />
+    <Content Include="Global.asax">
+      <SubType>Component</SubType>
+    </Content>
+    <Content Include="Home1.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Images\UltimatePanelDesigner\Add.gif" />
+    <Content Include="Images\UltimatePanelDesigner\Browse.gif" />
+    <Content Include="Images\UltimatePanelDesigner\Delete.gif" />
+    <Content Include="Images\UltimatePanelDesigner\Down.gif" />
+    <Content Include="Images\UltimatePanelDesigner\Help.gif" />
+    <Content Include="Images\UltimatePanelDesigner\Karamasoft.gif" />
+    <Content Include="Images\UltimatePanelDesigner\LabelLeftIcon.gif" />
+    <Content Include="Images\UltimatePanelDesigner\Left.gif" />
+    <Content Include="Images\UltimatePanelDesigner\New.gif" />
+    <Content Include="Images\UltimatePanelDesigner\Open.gif" />
+    <Content Include="Images\UltimatePanelDesigner\Refresh.gif" />
+    <Content Include="Images\UltimatePanelDesigner\Right.gif" />
+    <Content Include="Images\UltimatePanelDesigner\Save.gif" />
+    <Content Include="Images\UltimatePanelDesigner\Tutorial1.gif" />
+    <Content Include="Images\UltimatePanelDesigner\Tutorial2.gif" />
+    <Content Include="Images\UltimatePanelDesigner\Tutorial3.gif" />
+    <Content Include="Images\UltimatePanelDesigner\Up.gif" />
+    <Content Include="Images\UltimatePanel\CursorMove.gif" />
+    <Content Include="Images\UltimatePanel\GroupHeaderRightIcon.gif" />
+    <Content Include="Images\UltimatePanel\GroupHeaderRightIconAnim.gif" />
+    <Content Include="Images\UltimatePanel\GroupHeaderRightIconBlank.gif" />
+    <Content Include="Images\UltimatePanel\GroupHeaderRightIconOpen.gif" />
+    <Content Include="Images\UltimatePanel\GroupHeaderRightIconOpenAnim.gif" />
+    <Content Include="Images\UltimatePanel\ShowHideLeft.gif" />
+    <Content Include="Images\UltimatePanel\ShowHideLeftOver.gif" />
+    <Content Include="Images\UltimatePanel\ShowHideRight.gif" />
+    <Content Include="Images\UltimatePanel\ShowHideRightOver.gif" />
+    <Content Include="Marquee\Down.gif" />
+    <Content Include="Marquee\Item_LeftIcon.gif" />
+    <Content Include="Marquee\Left.gif" />
+    <Content Include="Marquee\Minus.gif" />
+    <Content Include="Marquee\Plus.gif" />
+    <Content Include="Marquee\Right.gif" />
+    <Content Include="Marquee\Stop.gif" />
+    <Content Include="Marquee\Up.gif" />
+    <Content Include="MoreReports.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="PLA_Homes.css" />
+    <Content Include="Scripts\UltimatePanelScriptIE4.js" />
+    <Content Include="Scripts\UltimatePanelScriptIE5p.js" />
+    <Content Include="Scripts\UltimatePanelScriptLoader.js" />
+    <Content Include="Scripts\UltimatePanelScriptNS6p.js" />
+    <Content Include="Scripts\UltimatePanelScriptUnknown.js" />
+    <Content Include="Scripts\UltimatePanelUtility.js" />
+    <Content Include="SelectSupervisor.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <EmbeddedResource Include="Global.asax.resx">
+      <DependentUpon>Global.asax.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home1.aspx.resx">
+      <DependentUpon>Home1.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="licenses.licx" />
+    <EmbeddedResource Include="MoreReports.aspx.resx">
+      <DependentUpon>MoreReports.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectSupervisor.aspx.resx">
+      <DependentUpon>SelectSupervisor.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Profile1.pubxml" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>63945</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/web_projects/trn/PLA_Homes</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

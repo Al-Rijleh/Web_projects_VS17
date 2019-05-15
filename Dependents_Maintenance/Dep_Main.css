@@ -1,0 +1,104 @@
+.AddEditMain
+{
+    width:730px;
+}
+
+.Row
+{
+    width:715px;
+    padding-left:10px;
+    padding-right: 5px;
+    float:left;
+}
+
+.fullWidth
+{
+    width: 100%;
+    float:left;
+}
+
+.Width75
+{
+    width: 75%;
+    float:left;
+}
+
+.margintop05
+{
+    margin-top:5px;
+}
+
+.margintop10
+{
+    margin-top:10px;
+}
+
+.AddEditLeft
+{
+    width: 390px;
+    float:left;
+}
+
+.AddEditRowLeft
+{
+    width: 375px;
+    float:left;
+    padding-left:10px;
+    padding-right: 5px;
+}
+
+.AddEditLabel
+{
+    width: 100px;
+    float:left;
+}
+
+.AddEditReq
+{
+    width: 10px;
+    float:left;
+}
+
+.AddEditTextBox
+{
+    width: 170px;
+    float:left;
+}
+
+.AddEditValidator
+{
+    width: 95px;
+    float:left;
+}
+
+.AddEditRight
+{
+    width: 340px;
+    float:left;
+}
+
+.AddEditRowRight
+{
+    width: 335px;
+    float:left;    
+    padding-right: 5px;
+}
+
+.AddEditRLabel
+{
+    width: 80px;
+    float:left;
+}
+
+.AddEditRTextBox
+{
+    width: 135px;
+    float:left;
+}
+
+.AddEditRValidator
+{
+    width: 100px;
+    float:left;
+}
+

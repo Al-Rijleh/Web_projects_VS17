@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="_UpgradeWizard_Files\UpgradeWizardLog.xslt"?>
+<log>
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\inetpub\web_projects_VS13\DependentsAuditGetDocuments\DependentsAuditGetDocuments.csproj" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\inetpub\web_projects_VS13\DependentsAuditGetDocuments\Default.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\inetpub\web_projects_VS13\DependentsAuditGetDocuments\Default.aspx" />
+  <event action="Analyze" type="Success" name="Default.aspx" path="C:\inetpub\web_projects_VS13\DependentsAuditGetDocuments\Default.aspx" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\inetpub\web_projects_VS13\DependentsAuditGetDocuments\packages.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\inetpub\web_projects_VS13\DependentsAuditGetDocuments\packages.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\inetpub\web_projects_VS13\DependentsAuditGetDocuments\packages.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\inetpub\web_projects_VS13\DependentsAuditGetDocuments\packages.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\inetpub\web_projects_VS13\DependentsAuditGetDocuments\packages.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\inetpub\web_projects_VS13\DependentsAuditGetDocuments\packages.config" />
+  <event action="Analyze" type="Success" name="packages.config" path="C:\inetpub\web_projects_VS13\DependentsAuditGetDocuments\packages.config" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\inetpub\web_projects_VS13\DependentsAuditGetDocuments\ViewFax.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\inetpub\web_projects_VS13\DependentsAuditGetDocuments\ViewFax.aspx" />
+  <event action="Analyze" type="Success" name="ViewFax.aspx" path="C:\inetpub\web_projects_VS13\DependentsAuditGetDocuments\ViewFax.aspx" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\inetpub\web_projects_VS13\DependentsAuditGetDocuments\Web.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\inetpub\web_projects_VS13\DependentsAuditGetDocuments\Web.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\inetpub\web_projects_VS13\DependentsAuditGetDocuments\Web.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\inetpub\web_projects_VS13\DependentsAuditGetDocuments\Web.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\inetpub\web_projects_VS13\DependentsAuditGetDocuments\Web.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\inetpub\web_projects_VS13\DependentsAuditGetDocuments\Web.config" />
+  <event action="Analyze" type="Success" name="Web.config" path="C:\inetpub\web_projects_VS13\DependentsAuditGetDocuments\Web.config" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\inetpub\web_projects_VS13\DependentsAuditGetDocuments\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\inetpub\web_projects_VS13\DependentsAuditGetDocuments\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\inetpub\web_projects_VS13\DependentsAuditGetDocuments\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\inetpub\web_projects_VS13\DependentsAuditGetDocuments\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\inetpub\web_projects_VS13\DependentsAuditGetDocuments\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\inetpub\web_projects_VS13\DependentsAuditGetDocuments\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Web.Debug.config" path="C:\inetpub\web_projects_VS13\DependentsAuditGetDocuments\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\inetpub\web_projects_VS13\DependentsAuditGetDocuments\Web.Release.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\inetpub\web_projects_VS13\DependentsAuditGetDocuments\Web.Release.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\inetpub\web_projects_VS13\DependentsAuditGetDocuments\Web.Release.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\inetpub\web_projects_VS13\DependentsAuditGetDocuments\Web.Release.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\inetpub\web_projects_VS13\DependentsAuditGetDocuments\Web.Release.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\inetpub\web_projects_VS13\DependentsAuditGetDocuments\Web.Release.config" />
+  <event action="Analyze" type="Success" name="Web.Release.config" path="C:\inetpub\web_projects_VS13\DependentsAuditGetDocuments\Web.Release.config" />
+  <event action="Analyze" type="Success" name="DependentsAuditGetDocuments" path="C:\inetpub\web_projects_VS13\DependentsAuditGetDocuments\DependentsAuditGetDocuments.csproj" />
+  <event action="Analyze" type="Success" name="DependentsAuditGetDocuments" path="C:\inetpub\web_projects_VS13\DependentsAuditGetDocuments\DependentsAuditGetDocuments.sln" />
+  <event action="Backup" type="Error" name="DependentsAuditGetDocuments" path="C:\inetpub\web_projects_VS13\DependentsAuditGetDocuments\DependentsAuditGetDocuments.csproj">System.IO.PathTooLongException: The specified path, file name, or both are too long. The fully qualified file name must be less than 260 characters, and the directory name must be less than 248 characters.
+   at System.IO.PathHelper.GetFullPathName()
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPathInternal(String path)
+   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   at System.IO.File.Copy(String sourceFileName, String destFileName, Boolean overwrite)
+   at Telerik.Reporting.UpgradeWizard.Engine.Services.BackupService.BackupDirectory(String directoryName)
+   at Telerik.Reporting.UpgradeWizard.Engine.Services.BackupService.BackupDirectory(String directoryName)
+   at Telerik.Reporting.UpgradeWizard.Engine.Services.BackupService.BackupDirectory(String directoryName)
+   at Telerik.Reporting.UpgradeWizard.Engine.Services.BackupService.BackupDirectory(String directoryName)
+   at Telerik.Reporting.UpgradeWizard.Engine.Services.BackupService.BackupDirectory(String directoryName)
+   at Telerik.Reporting.UpgradeWizard.Engine.Services.BackupService.BackupDirectory(String directoryName)
+   at Telerik.Reporting.UpgradeWizard.Engine.Services.BackupService.BackupDirectory(String directoryName)
+   at Telerik.Reporting.UpgradeWizard.Engine.Services.BackupService.BackupDirectory(String directoryName)
+   at Telerik.Reporting.UpgradeWizard.Engine.ProjectItem.BackupInternal()
+   at Telerik.Reporting.UpgradeWizard.Engine.UpgradeItem.Backup()</event>
+  <event action="Restore" type="Success" name="DependentsAuditGetDocuments" path="C:\inetpub\web_projects_VS13\DependentsAuditGetDocuments\DependentsAuditGetDocuments.csproj" />
+  <event action="Restore" type="Success" name="Web.config" path="C:\inetpub\web_projects_VS13\DependentsAuditGetDocuments\Web.config" />
+</log>

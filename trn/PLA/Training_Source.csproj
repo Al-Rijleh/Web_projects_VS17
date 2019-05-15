@@ -1,0 +1,691 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0F6EDDF4-31BB-425B-A339-894BE0B5696B}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>PLA_Source</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>PLA_Source</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ActiveReports.Chart">
+      <Name>ActiveReports.Chart</Name>
+      <HintPath>..\..\..\Program Files\Common Files\Data Dynamics\ActiveReports for .NET 2.0\ActiveReports.Chart.dll</HintPath>
+      <AssemblyFolderKey>hklm\dn\activereports for .net 2.0</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="ActiveReports.HtmlExport">
+      <Name>ActiveReports.HtmlExport</Name>
+      <HintPath>..\..\..\Program Files\Common Files\Data Dynamics\ActiveReports for .NET 2.0\ActiveReports.HtmlExport.dll</HintPath>
+      <AssemblyFolderKey>hklm\dn\activereports for .net 2.0</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="ActiveReports.Interop">
+      <Name>ActiveReports.Interop</Name>
+      <HintPath>..\..\..\Program Files\Common Files\Data Dynamics\ActiveReports for .NET 2.0\ActiveReports.Interop.dll</HintPath>
+      <AssemblyFolderKey>hklm\dn\activereports for .net 2.0</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="ActiveReports.PdfExport">
+      <Name>ActiveReports.PdfExport</Name>
+      <HintPath>..\..\..\Program Files\Common Files\Data Dynamics\ActiveReports for .NET 2.0\ActiveReports.PdfExport.dll</HintPath>
+      <AssemblyFolderKey>hklm\dn\activereports for .net 2.0</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="ActiveReports.RtfExport">
+      <Name>ActiveReports.RtfExport</Name>
+      <HintPath>..\..\..\Program Files\Common Files\Data Dynamics\ActiveReports for .NET 2.0\ActiveReports.RtfExport.dll</HintPath>
+      <AssemblyFolderKey>hklm\dn\activereports for .net 2.0</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="ActiveReports.TextExport">
+      <Name>ActiveReports.TextExport</Name>
+      <HintPath>..\..\..\Program Files\Common Files\Data Dynamics\ActiveReports for .NET 2.0\ActiveReports.TextExport.dll</HintPath>
+      <AssemblyFolderKey>hklm\dn\activereports for .net 2.0</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="ActiveReports.TiffExport">
+      <Name>ActiveReports.TiffExport</Name>
+      <HintPath>..\..\..\Program Files\Common Files\Data Dynamics\ActiveReports for .NET 2.0\ActiveReports.TiffExport.dll</HintPath>
+      <AssemblyFolderKey>hklm\dn\activereports for .net 2.0</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="ActiveReports.Web">
+      <Name>activereports.web</Name>
+      <HintPath>..\..\..\Program Files\Common Files\Data Dynamics\ActiveReports for .NET 2.0\activereports.web.dll</HintPath>
+      <AssemblyFolderKey>hklm\dn\activereports for .net 2.0</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="ActiveReports.Web.Design">
+      <Name>ActiveReports.Web.Design</Name>
+      <HintPath>..\..\..\Program Files\Common Files\Data Dynamics\ActiveReports for .NET 2.0\ActiveReports.Web.Design.dll</HintPath>
+      <AssemblyFolderKey>hklm\dn\activereports for .net 2.0</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="ActiveReports.XlsExport">
+      <Name>ActiveReports.XlsExport</Name>
+      <HintPath>..\..\..\Program Files\Common Files\Data Dynamics\ActiveReports for .NET 2.0\ActiveReports.XlsExport.dll</HintPath>
+      <AssemblyFolderKey>hklm\dn\activereports for .net 2.0</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="AxSHDocVw">
+      <Name>AxSHDocVw</Name>
+      <HintPath>..\..\..\inetpub\wwwroot\karamasoft\ultimatemenu\v3.2\designer\bin\AxSHDocVw.dll</HintPath>
+    </Reference>
+    <Reference Include="BasStar, Version=1.0.2985.20332, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\BasStar\obj\Debug\BasStar.dll</HintPath>
+    </Reference>
+    <Reference Include="BASUSA, Version=1.0.2981.15064, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\BAS_Classes\BASUSA\obj\Debug\BASUSA.dll</HintPath>
+    </Reference>
+    <Reference Include="Bas_Utility, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Bas_Utility\bin\Bas_Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="EnvDTE">
+      <Name>EnvDTE</Name>
+    </Reference>
+    <Reference Include="ErrorHandeler, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ErrorHandeler\bin\ErrorHandeler.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic">
+      <Name>Microsoft.VisualBasic</Name>
+    </Reference>
+    <Reference Include="Oracle.DataAccess, Version=10.2.0.100, Culture=neutral, PublicKeyToken=89b483f429c47342" />
+    <Reference Include="RJS.Web.WebControl.PopCalendar">
+      <Name>rjs.web.webcontrol.popcalendar</Name>
+      <HintPath>..\..\..\bas_classes\calendarcontrol\library\rjs.web.webcontrol.popcalendar.dll</HintPath>
+    </Reference>
+    <Reference Include="SHDocVw">
+      <Name>SHDocVw</Name>
+      <HintPath>..\..\..\inetpub\wwwroot\karamasoft\ultimatemenu\v3.2\designer\bin\SHDocVw.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLStatic, Version=1.0.3013.12916, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\BAS_Classes\SQLStatic\bin\Debug\SQLStatic.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Design">
+      <Name>System.Design</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Management">
+      <Name>System.Management</Name>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Template, Version=1.0.2981.15416, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Template\bin\Template.dll</HintPath>
+    </Reference>
+    <Reference Include="TemplateMenuXML, Version=1.0.3009.18944, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\BAS_Classes\TemplateMenuXML\obj\Debug\TemplateMenuXML.dll</HintPath>
+    </Reference>
+    <Reference Include="UltimateMenu, Version=3.2.2906.22169, Culture=neutral, PublicKeyToken=3be49ef17ee06964, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Inetpub\wwwroot\Karamasoft\UltimateMenu\v3.2\Demos\CS\bin\UltimateMenu.dll</HintPath>
+    </Reference>
+    <Reference Include="UltimatePanel">
+      <Name>ultimatepanel</Name>
+      <HintPath>..\..\..\inetpub\wwwroot\karamasoft\ultimatepanel\v3.2\designer\bin\ultimatepanel.dll</HintPath>
+    </Reference>
+    <Reference Include="UltimateTabstrip">
+      <Name>ultimatetabstrip</Name>
+      <HintPath>..\..\..\inetpub\wwwroot\karamasoft\ultimatetabstrip\v1.0\controls\bin\ultimatetabstrip.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AddEditExpense.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="BudgetDetail.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="CancelPaidRequest.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="CancelPaidRequestinsystem.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Communication.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Confirmation.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="CourseDateAndTime.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="cp_buget.aspx" />
+    <Content Include="dFilter.js" />
+    <Content Include="Dummy.htm" />
+    <Content Include="Error.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="ExpenseDetail.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Global.asax">
+      <SubType>Component</SubType>
+    </Content>
+    <Content Include="History.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="img\Check.GIF" />
+    <Content Include="img\completed.JPG" />
+    <Content Include="img\Fill.JPG" />
+    <Content Include="img\incomplete.JPG" />
+    <Content Include="img\Xcancel.GIF" />
+    <Content Include="ItemDetail.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="ManageSupervisor.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="NewSummary.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Out.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="PopupChecker.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="PrivacyStatement.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="PrivacyStatementEval.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="PrivacyStatementTraining.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="ProgramCodes.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="ReviewEval.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="SaveConfirmation.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Saved.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="SelectAccountCategory.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="SelectApp.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="SenMessage.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="SignaturBlock.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="TrainingAnswers.aspx" />
+    <Content Include="TrainingAnswers3.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="TrainingExpenses.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="TrainingTypeAndNeeds2008.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="TrainingTypesAndNeeds.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="TrainingVendorInfo.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="ViewAdditionInfo.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="ViewEditNote.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="ViewEmail.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Warning.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Compile Include="AddEditExpense.aspx.cs">
+      <DependentUpon>AddEditExpense.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BudgetDetail.aspx.cs">
+      <DependentUpon>BudgetDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CancelPaidRequest.aspx.cs">
+      <DependentUpon>CancelPaidRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CancelPaidRequestinsystem.aspx.cs">
+      <DependentUpon>CancelPaidRequestinsystem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Communication.aspx.cs">
+      <DependentUpon>Communication.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Confirmation.aspx.cs">
+      <DependentUpon>Confirmation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CourseDateAndTime.aspx.cs">
+      <DependentUpon>CourseDateAndTime.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cp_buget.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>cp_buget.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cp_buget.aspx.designer.cs">
+      <DependentUpon>cp_buget.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExpenseDetail.aspx.cs">
+      <DependentUpon>ExpenseDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="History.aspx.cs">
+      <DependentUpon>History.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ItemDetail.aspx.cs">
+      <DependentUpon>ItemDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageSupervisor.aspx.cs">
+      <DependentUpon>ManageSupervisor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewSummary.aspx.cs">
+      <DependentUpon>NewSummary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Out.aspx.cs">
+      <DependentUpon>Out.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PopupChecker.aspx.cs">
+      <DependentUpon>PopupChecker.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PrivacyStatement.aspx.cs">
+      <DependentUpon>PrivacyStatement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PrivacyStatementEval.aspx.cs">
+      <DependentUpon>PrivacyStatementEval.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PrivacyStatementTraining.aspx.cs">
+      <DependentUpon>PrivacyStatementTraining.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProgramCodes.aspx.cs">
+      <DependentUpon>ProgramCodes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReviewEval.aspx.cs">
+      <DependentUpon>ReviewEval.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SaveConfirmation.aspx.cs">
+      <DependentUpon>SaveConfirmation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Saved.aspx.cs">
+      <DependentUpon>Saved.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SelectAccountCategory.aspx.cs">
+      <DependentUpon>SelectAccountCategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SelectApp.aspx.cs">
+      <DependentUpon>SelectApp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SenMessage.aspx.cs">
+      <DependentUpon>SenMessage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignaturBlock.aspx.cs">
+      <DependentUpon>SignaturBlock.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TainingClass.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TrainingAnswers.aspx.cs">
+      <DependentUpon>TrainingAnswers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrainingAnswers3.aspx.cs">
+      <DependentUpon>TrainingAnswers3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrainingExpenses.aspx.cs">
+      <DependentUpon>TrainingExpenses.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrainingTypeAndNeeds2008.aspx.cs">
+      <DependentUpon>TrainingTypeAndNeeds2008.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrainingTypesAndNeeds.aspx.cs">
+      <DependentUpon>TrainingTypesAndNeeds.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrainingVendorInfo.aspx.cs">
+      <DependentUpon>TrainingVendorInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewAdditionInfo.aspx.cs">
+      <DependentUpon>ViewAdditionInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewEditNote.aspx.cs">
+      <DependentUpon>ViewEditNote.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewEmail.aspx.cs">
+      <DependentUpon>ViewEmail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Warning.aspx.cs">
+      <DependentUpon>Warning.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <EmbeddedResource Include="AddEditExpense.aspx.resx">
+      <DependentUpon>AddEditExpense.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BudgetDetail.aspx.resx">
+      <DependentUpon>BudgetDetail.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CancelPaidRequest.aspx.resx">
+      <DependentUpon>CancelPaidRequest.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CancelPaidRequestinsystem.aspx.resx">
+      <DependentUpon>CancelPaidRequestinsystem.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Communication.aspx.resx">
+      <DependentUpon>Communication.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Confirmation.aspx.resx">
+      <DependentUpon>Confirmation.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CourseDateAndTime.aspx.resx">
+      <DependentUpon>CourseDateAndTime.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Error.aspx.resx">
+      <DependentUpon>Error.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExpenseDetail.aspx.resx">
+      <DependentUpon>ExpenseDetail.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Global.asax.resx">
+      <DependentUpon>Global.asax.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="History.aspx.resx">
+      <DependentUpon>History.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ItemDetail.aspx.resx">
+      <DependentUpon>ItemDetail.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="licenses.licx" />
+    <EmbeddedResource Include="ManageSupervisor.aspx.resx">
+      <DependentUpon>ManageSupervisor.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewSummary.aspx.resx">
+      <DependentUpon>NewSummary.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Out.aspx.resx">
+      <DependentUpon>Out.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopupChecker.aspx.resx">
+      <DependentUpon>PopupChecker.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrivacyStatement.aspx.resx">
+      <DependentUpon>PrivacyStatement.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrivacyStatementEval.aspx.resx">
+      <DependentUpon>PrivacyStatementEval.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrivacyStatementTraining.aspx.resx">
+      <DependentUpon>PrivacyStatementTraining.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgramCodes.aspx.resx">
+      <DependentUpon>ProgramCodes.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReviewEval.aspx.resx">
+      <DependentUpon>ReviewEval.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaveConfirmation.aspx.resx">
+      <DependentUpon>SaveConfirmation.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Saved.aspx.resx">
+      <DependentUpon>Saved.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectAccountCategory.aspx.resx">
+      <DependentUpon>SelectAccountCategory.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectApp.aspx.resx">
+      <DependentUpon>SelectApp.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SenMessage.aspx.resx">
+      <DependentUpon>SenMessage.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignaturBlock.aspx.resx">
+      <DependentUpon>SignaturBlock.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrainingAnswers.aspx.resx">
+      <DependentUpon>TrainingAnswers.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrainingAnswers3.aspx.resx">
+      <DependentUpon>TrainingAnswers3.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrainingExpenses.aspx.resx">
+      <DependentUpon>TrainingExpenses.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrainingTypeAndNeeds2008.aspx.resx">
+      <DependentUpon>TrainingTypeAndNeeds2008.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrainingTypesAndNeeds.aspx.resx">
+      <DependentUpon>TrainingTypesAndNeeds.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrainingVendorInfo.aspx.resx">
+      <DependentUpon>TrainingVendorInfo.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewAdditionInfo.aspx.resx">
+      <DependentUpon>ViewAdditionInfo.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewEditNote.aspx.resx">
+      <DependentUpon>ViewEditNote.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewEmail.aspx.resx">
+      <DependentUpon>ViewEmail.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Warning.aspx.resx">
+      <DependentUpon>Warning.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SF-182 _2_ _3_ _4_.pdf" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1355</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/Web_Projects/trn/PLA</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

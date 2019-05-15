@@ -1,0 +1,46 @@
+<root>
+	
+
+	
+
+	<tools name="InsertToolbar" dockable="true" enabled="true" >
+		<tool name="InsertSymbol" />
+		<tool name="AjaxSpellCheck"/>		
+    		<tool name="Help" />
+	</tools>
+
+	<tools enabled="true">				
+		<tool name="Cut" />
+		<tool name="Copy" />
+		<tool name="Paste" shortcut="CTRL+!"/>
+		<tool separator="true"/>	
+		<tool name="Print" />
+		<tool name="FindAndReplace" />
+		
+	</tools>
+
+	<tools enabled="true" dockable="true">
+		<tool name="Bold" />
+		<tool name="Italic" />
+		<tool name="Underline" />
+		<tool name="StrikeThrough" />
+		
+	</tools>
+
+	<tools name="DropdownToolbar" dockable="true" >
+		<tool name="ForeColor" />
+		<tool name="BackColor"/>
+		<tool separator="true"/>
+		<tool name="FontName"/>
+		<tool name="FontSize"/>
+		<tool name="RealFontSize"/>
+		
+    <tool name="Zoom" />
+	</tools>
+ 
+
+	
+	
+
+	
+</root>

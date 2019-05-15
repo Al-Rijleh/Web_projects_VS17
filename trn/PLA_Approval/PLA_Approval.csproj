@@ -1,0 +1,563 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0A93603B-1AE9-4A93-83C1-EB3600665CFF}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>PLA_Approval</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>PLA_Approval</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <TargetFrameworkProfile />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxSHDocVw">
+      <Name>AxSHDocVw</Name>
+      <HintPath>..\..\..\inetpub\wwwroot\karamasoft\ultimatemenu\v3.2\designer\bin\AxSHDocVw.dll</HintPath>
+    </Reference>
+    <Reference Include="Bas.Exception.Logging">
+      <Name>Bas.Exception.Logging</Name>
+      <HintPath>..\..\..\BAS_Classes\Template\Bas.Exception.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="BasStar, Version=1.0.2985.20332, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\BasStar\obj\Debug\BasStar.dll</HintPath>
+    </Reference>
+    <Reference Include="BASUSA, Version=1.0.2981.15064, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\BAS_Classes\BASUSA\obj\Debug\BASUSA.dll</HintPath>
+    </Reference>
+    <Reference Include="EnvDTE">
+      <Name>EnvDTE</Name>
+    </Reference>
+    <Reference Include="ErrorHandeler_10">
+      <HintPath>..\..\ErrorHandeler_10\bin\ErrorHandeler_10.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic">
+      <Name>Microsoft.VisualBasic</Name>
+    </Reference>
+    <Reference Include="Oracle.DataAccess, Version=10.2.0.100, Culture=neutral, PublicKeyToken=89b483f429c47342" />
+    <Reference Include="SHDocVw">
+      <Name>SHDocVw</Name>
+      <HintPath>..\..\..\inetpub\wwwroot\karamasoft\ultimatemenu\v3.2\designer\bin\SHDocVw.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLStatic, Version=1.0.2994.16894, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\BAS_Classes\SQLStatic\bin\Debug\SQLStatic.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Design">
+      <Name>System.Design</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Management">
+      <Name>System.Management</Name>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Template, Version=1.0.2981.15416, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Template\bin\Template.dll</HintPath>
+    </Reference>
+    <Reference Include="UltimateMenu">
+      <Name>ultimatemenu</Name>
+      <HintPath>..\..\..\inetpub\wwwroot\karamasoft\ultimatemenu\v3.2\designer\bin\ultimatemenu.dll</HintPath>
+    </Reference>
+    <Reference Include="UltimatePanel">
+      <Name>ultimatepanel</Name>
+      <HintPath>..\..\..\inetpub\wwwroot\karamasoft\ultimatepanel\v3.2\designer\bin\ultimatepanel.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AddEditExpense.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="AdjutmentHistory.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="BudgetDetail.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="CancelApplication.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="CancelApplication2.aspx" />
+    <Content Include="Communication.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="ExpenseAdjustment.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="ExpenseAdjustmentWriter.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Global.asax">
+      <SubType>Component</SubType>
+    </Content>
+    <Content Include="Img\Check.GIF" />
+    <Content Include="Img\Xcancel.GIF" />
+    <Content Include="ManageReasons.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="PartialPayment.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="PayorApprovalPage.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="PayorApprovePayment.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="PayorCheckpopup.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="PayorPendingApprovals.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="SearchEmployee.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="SenMessage.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="SprvsrCheckpopup.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="SprvsrRqstInfo.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Supervisor2ndInLineApproval.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="SupervisorApproval.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="SupervisorApprove.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="SupervisorDecline.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="SupervisorPendingApplications.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="System_Add_Extra_Budget_Money.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="System_Adjust_Paid_Request.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="System_Administrator.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="System_Administrator_CheckPupop.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="system_administrator_process_Reroute.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="System_ApplyETV.aspx.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="System_Assign_Supervisor.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="ViewAdditionInfo.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Compile Include="AddEditExpense.aspx.cs">
+      <DependentUpon>AddEditExpense.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdjutmentHistory.aspx.cs">
+      <DependentUpon>AdjutmentHistory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BudgetDetail.aspx.cs">
+      <DependentUpon>BudgetDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CancelApplication.aspx.cs">
+      <DependentUpon>CancelApplication.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CancelApplication2.aspx.cs">
+      <DependentUpon>CancelApplication2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Class1.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Communication.aspx.cs">
+      <DependentUpon>Communication.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExpenseAdjustment.aspx.cs">
+      <DependentUpon>ExpenseAdjustment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExpenseAdjustmentWriter.aspx.cs">
+      <DependentUpon>ExpenseAdjustmentWriter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ManageReasons.aspx.cs">
+      <DependentUpon>ManageReasons.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PartialPayment.aspx.cs">
+      <DependentUpon>PartialPayment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PayorApprovalPage.aspx.cs">
+      <DependentUpon>PayorApprovalPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PayorApprovePayment.aspx.cs">
+      <DependentUpon>PayorApprovePayment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PayorCheckpopup.aspx.cs">
+      <DependentUpon>PayorCheckpopup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PayorPendingApprovals.aspx.cs">
+      <DependentUpon>PayorPendingApprovals.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SearchEmployee.aspx.cs">
+      <DependentUpon>SearchEmployee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SenMessage.aspx.cs">
+      <DependentUpon>SenMessage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SprvsrCheckpopup.aspx.cs">
+      <DependentUpon>SprvsrCheckpopup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SprvsrRqstInfo.aspx.cs">
+      <DependentUpon>SprvsrRqstInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Supervisor2ndInLineApproval.aspx.cs">
+      <DependentUpon>Supervisor2ndInLineApproval.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SupervisorApproval.aspx.cs">
+      <DependentUpon>SupervisorApproval.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SupervisorApprove.aspx.cs">
+      <DependentUpon>SupervisorApprove.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SupervisorDecline.aspx.cs">
+      <DependentUpon>SupervisorDecline.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SupervisorPendingApplications.aspx.cs">
+      <DependentUpon>SupervisorPendingApplications.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="System_Add_Extra_Budget_Money.aspx.cs">
+      <DependentUpon>System_Add_Extra_Budget_Money.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="System_Adjust_Paid_Request.aspx.cs">
+      <DependentUpon>System_Adjust_Paid_Request.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="System_Administrator.aspx.cs">
+      <DependentUpon>System_Administrator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="System_Administrator_CheckPupop.aspx.cs">
+      <DependentUpon>System_Administrator_CheckPupop.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="system_administrator_process_Reroute.aspx.cs">
+      <DependentUpon>system_administrator_process_Reroute.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="System_ApplyETV.aspx.aspx.cs">
+      <DependentUpon>System_ApplyETV.aspx.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="System_Assign_Supervisor.aspx.cs">
+      <DependentUpon>System_Assign_Supervisor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewAdditionInfo.aspx.cs">
+      <DependentUpon>ViewAdditionInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <EmbeddedResource Include="AddEditExpense.aspx.resx">
+      <DependentUpon>AddEditExpense.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdjutmentHistory.aspx.resx">
+      <DependentUpon>AdjutmentHistory.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BudgetDetail.aspx.resx">
+      <DependentUpon>BudgetDetail.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CancelApplication.aspx.resx">
+      <DependentUpon>CancelApplication.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CancelApplication2.aspx.resx">
+      <DependentUpon>CancelApplication2.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Communication.aspx.resx">
+      <DependentUpon>Communication.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExpenseAdjustment.aspx.resx">
+      <DependentUpon>ExpenseAdjustment.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExpenseAdjustmentWriter.aspx.resx">
+      <DependentUpon>ExpenseAdjustmentWriter.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Global.asax.resx">
+      <DependentUpon>Global.asax.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="licenses.licx" />
+    <EmbeddedResource Include="ManageReasons.aspx.resx">
+      <DependentUpon>ManageReasons.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PartialPayment.aspx.resx">
+      <DependentUpon>PartialPayment.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PayorApprovalPage.aspx.resx">
+      <DependentUpon>PayorApprovalPage.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PayorApprovePayment.aspx.resx">
+      <DependentUpon>PayorApprovePayment.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PayorCheckpopup.aspx.resx">
+      <DependentUpon>PayorCheckpopup.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PayorPendingApprovals.aspx.resx">
+      <DependentUpon>PayorPendingApprovals.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchEmployee.aspx.resx">
+      <DependentUpon>SearchEmployee.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SenMessage.aspx.resx">
+      <DependentUpon>SenMessage.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SprvsrCheckpopup.aspx.resx">
+      <DependentUpon>SprvsrCheckpopup.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SprvsrRqstInfo.aspx.resx">
+      <DependentUpon>SprvsrRqstInfo.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Supervisor2ndInLineApproval.aspx.resx">
+      <DependentUpon>Supervisor2ndInLineApproval.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SupervisorApproval.aspx.resx">
+      <DependentUpon>SupervisorApproval.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SupervisorApprove.aspx.resx">
+      <DependentUpon>SupervisorApprove.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SupervisorDecline.aspx.resx">
+      <DependentUpon>SupervisorDecline.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SupervisorPendingApplications.aspx.resx">
+      <DependentUpon>SupervisorPendingApplications.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System_Add_Extra_Budget_Money.aspx.resx">
+      <DependentUpon>System_Add_Extra_Budget_Money.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System_Adjust_Paid_Request.aspx.resx">
+      <DependentUpon>System_Adjust_Paid_Request.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System_Administrator.aspx.resx">
+      <DependentUpon>System_Administrator.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System_Administrator_CheckPupop.aspx.resx">
+      <DependentUpon>System_Administrator_CheckPupop.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="system_administrator_process_Reroute.aspx.resx">
+      <DependentUpon>system_administrator_process_Reroute.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System_ApplyETV.aspx.aspx.resx">
+      <DependentUpon>System_ApplyETV.aspx.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System_Assign_Supervisor.aspx.resx">
+      <DependentUpon>System_Assign_Supervisor.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewAdditionInfo.aspx.resx">
+      <DependentUpon>ViewAdditionInfo.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Profile1.pubxml" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50475</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/Web_Projects/trn/PLA_Approval</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

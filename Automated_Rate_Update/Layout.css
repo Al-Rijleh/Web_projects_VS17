@@ -1,0 +1,143 @@
+﻿
+.outRow
+{
+    width:790px;
+    float:left;
+    margin-bottom:5px;
+    padding-left:5px;
+   /* border-style: solid; border-width: 1px; border-color: #C0C0C0*/
+}
+
+.Row
+{
+    width:780px;
+    float:left;
+    margin-bottom: 0px;
+}
+
+.RowHR
+{
+    width:780px;
+    float:left;
+}
+
+
+
+.FontSmall{
+	font-family: Arial, Sans-Serif;
+	font-size: 9pt;	
+}
+
+.FontBold
+{
+    font-weight:bold
+}
+
+.FontSmall10{
+	font-family: Arial, Sans-Serif;
+	font-size: 10pt;
+}
+
+.SelectAccntNotSelected
+{
+    color:Red !important;
+}
+
+.SelectAccntSelected
+{
+    color:Green;
+}
+
+.PandDecoration
+{    
+    border: 1px solid #C0C0C0;
+    margin-top:10px;
+}
+
+.text
+{
+    width:185px;
+    float:left;
+}
+
+.input
+{
+    width:400px;
+    float:left;    
+}
+
+.filler
+{
+    width:170px;
+    float:left;
+}
+
+.marginbottom01
+{
+    margin-bottom:5px;
+}
+
+.marginbottom02
+{    
+    margin-bottom:10px;
+}
+
+.margintop01
+{
+    margin-top:5px;
+}
+
+.paddingtop01
+{
+    padding-top:5px;
+}
+
+.floatleft
+{
+    float:left;
+}
+
+.TopEdge
+{
+    border-top-style: solid; border-top-width: 1px; border-top-color: #D6DEEB;
+}
+
+
+.floatright
+{
+    float:right;
+}
+
+.floatMid
+{
+    width:100px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.floatMidLarge
+{
+    width:250px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.blank5
+{
+    width:775px;
+    height:5px;
+    float:left;
+}
+
+.blank10
+{
+    width:775px;
+    height:10px;
+    float:left;
+}
+
+.blank30
+{
+    width:775px;
+    height:30px
+}

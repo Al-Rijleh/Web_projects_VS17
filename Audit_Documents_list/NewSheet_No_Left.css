@@ -1,0 +1,724 @@
+body
+{
+      
+}
+
+.Fonterror
+{
+    font-family: Arial, Sans-Serif;
+	font-size: 10pt;
+    font-weight:bold;
+    color:Maroon;
+    background-color: Yellow;
+	BORDER-TOP-WIDTH: 1px; 
+	BORDER-LEFT-WIDTH: 1px; 
+	BORDER-LEFT-COLOR: #000000; 
+	BORDER-BOTTOM-WIDTH: 1px; 
+	BORDER-BOTTOM-COLOR: #000000; 
+	BORDER-TOP-COLOR: #000000; 
+	BORDER-RIGHT-WIDTH: 1px; 
+	BORDER-RIGHT-COLOR: #000000;
+}
+	
+.Frame
+{
+    BORDER-RIGHT: black 1px solid; 
+    BORDER-TOP: black 1px solid; 
+    BORDER-LEFT: black 1px solid; 
+    BORDER-BOTTOM: black 1px solid;
+}
+
+
+
+
+
+
+
+.FullPagePadded
+{
+    width:775px;     
+    padding-left:5px;
+    padding-right:5px;
+}
+
+.DataRow
+{
+    width:765px; 
+    float:left; 
+}
+
+.BlankRow10
+{
+    width:765px; 
+    height:10px;
+    float:left; 
+}
+
+.LabelRow
+{
+    width:100px; 
+    float:left; 
+}
+
+.ControlRow
+{
+    width:350px; 
+    float:left; 
+}
+
+.ValidatorRow
+{
+    width:300px; 
+    float:left; 
+}
+
+
+.DataPage
+{
+    width:100%;
+    float:left;     
+}
+
+A:link { COLOR: #24248F; TEXT-DECORATION: none }
+A:visited { COLOR: #24248F; TEXT-DECORATION: none }
+A:hover { COLOR: red; TEXT-DECORATION: none }
+
+
+.FontSmall{
+	font-family: Arial, Sans-Serif;
+	font-size: 9pt;	
+}
+
+.FontBold
+{
+    font-weight:bold
+}
+
+.FontSmall10{
+	font-family: Arial, Sans-Serif;
+	font-size: 10pt;
+}
+
+.FontMedium{
+	font-family: Arial, Sans-Serif;
+	font-size: 11pt;
+}
+
+.FontLarge{
+	font-family: Arial, Sans-Serif;
+	font-size: 13pt;
+}
+
+.FontTitle{
+	font-family: Arial Narrow, Sans-Serif;
+	font-size: 20pt;
+}
+
+.FontSmallTitle{
+	font-family: Arial Narrow, Sans-Serif;
+	font-size: 14pt;
+}
+
+.blank10
+{
+    width:100%;
+    height:10px;
+    float:left;
+}
+
+.blank30
+{
+    width:100%;
+    height:30px
+}
+
+.Header
+{
+    width:950px;
+    height:70px;
+    background-color:#EAF1DD;
+    padding-left:10px; 
+    padding-right:10px;  
+    padding-top:5px; 
+}
+
+.FullBudy
+{
+    width:965px;
+    padding-left:5px; 
+    padding-right:5px;
+}
+
+.HeaderSec1
+{
+    width:190px;
+    float:left;
+    background-color:#EAF1DD;
+}
+.Section2
+{
+    width:420px;
+    float:left;
+    background-color:#EAF1DD;
+}
+
+.HeaderSec2
+{
+    width:188px;
+    float:left;
+    background-color:#EAF1DD;
+}
+
+.Section3
+{
+    width:320px;
+    float:right;
+    background-color:#EAF1DD;
+}
+.HeaderSec3
+{
+    width:230px;
+    float:left;
+    background-color:#EAF1DD;
+}
+
+.HeaderSec4
+{
+    width:109px;
+    float:left;
+    background-color:#EAF1DD;
+}
+
+.HeaderSec5
+{
+    width:210px;
+    float:left;
+    background-color:#EAF1DD;
+}
+
+.RightPanel
+{
+    width:250px;
+    float:right;
+    background-color:#EAF1DD;
+}
+
+.LeftPanel
+{
+    width:688px;
+    float:left;
+}
+
+.RightPanelRow
+{
+    width:240px;
+    padding-left:5px; 
+    padding-right:5px;  
+    padding-top:5px;   
+}
+
+.LeftPanelRow
+{
+    width:678px;
+    padding-left:5px; 
+    padding-right:5px;  
+    padding-top:5px;
+}
+
+.RightPanelBlank10
+{
+    width:240px;
+    height:10px;
+}
+
+.PageJumpTitle
+{
+    width:195px;
+    padding-left:50px; 
+    padding-right:5px;  
+    padding-top:5px;  
+}
+
+
+.FullInputRow
+{
+    width:533px;
+    float:left;  
+}
+
+.floatleft
+{
+    float:left;  
+}
+
+.InputRowTitle
+{
+    width:100%;
+    padding-left:5px; 
+    padding-right:5px; 
+    float:left;  
+}
+
+.InputRowTitleLeftPad
+{
+    width:100%;
+    padding-left:15px; 
+    padding-right:5px; 
+    float:left;  
+}
+
+
+.InputRow
+{
+    width:100%;
+    padding-left:5px; 
+    padding-right:5px; 
+    height:23px;
+    float:left;  
+}
+
+.InputRownoH
+{
+    width:553px;
+    padding-left:5px; 
+    padding-right:5px; 
+    float:left;  
+}
+
+
+.InputRowNoPadding
+{
+    width:563px;
+    float:left;  
+}
+
+
+.InputLabel
+{
+    width:100px;
+    float:left; 
+    height:23px;
+    vertical-align: middle
+}
+
+.InputValue
+{
+    width:220px;
+    float:left; 
+    height:23px;
+}
+
+.InputValidator
+{
+    width:200px;
+    float:right; 
+    height:23px; 
+    vertical-align: middle;
+    float:left
+}
+
+.InputValidatorFloatLeft
+{
+    width:200px;
+    float:left; 
+    height:23px; 
+    vertical-align: middle
+}
+
+.InputLabelNoH
+{
+    width:100px;
+    float:left; 
+    vertical-align: middle
+}
+
+.InputValueNoH
+{
+    width:220px;
+    float:left; 
+}
+
+.InputValidatorFloatLeftNoH
+{
+    width:200px;
+    float:left; 
+    vertical-align: middle
+}
+
+.WholeLeftColumn
+{
+    width: 180px;
+    float:left; 
+    height:405px;
+    background-color: #E5F1DC;   
+}
+
+.MainLeftColumn
+{
+    width: 160px;
+    background-color: #E5F1DC;
+    float:left;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.LeftColumn
+{
+    width: 160px;background-color: #E5F1DC;float:left;
+}
+
+.MainDataColumn
+{
+    width: 303px; 
+    float:left;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.WelcomeMainDataColumn
+{
+    width: 303px; 
+    float:left;
+    
+}
+
+
+.NewMainDataColumnNoPadding
+{
+    width: 553px; 
+    float:left;
+}
+
+
+.NewMainDataColumn
+{
+    width: 553px; 
+    float:left;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.Datablank10
+{
+    width: 100%; 
+    float:left;
+    height:10px;
+}
+
+.Datablank30
+{
+    width: 100%; 
+    float:left;
+    height:30px;
+}
+
+.Datablank50
+{
+    width: 100%; 
+    float:left;
+    height:50px;
+}
+
+.NewDataColumn
+{
+    width: 100%; 
+    float:left;
+}
+
+.DataColumn
+{
+    width: 280px; 
+    float:left;
+}
+
+.PictureColumn
+{
+    width: 250px; 
+    float:right;
+}
+
+.MainRightColumnNoPadding
+{
+    width: 200px; 
+    /*width: 20%;*/
+    height: 405px;
+    background-color:  #CCCCCC;
+    float:left; 
+}
+
+.MainRightColumnExtender
+{
+    width: 200px; 
+    background-color:  #CCCCCC;
+    float:left; 
+}
+
+.MainRightColumn
+{
+    width: 180px; 
+    height: 405px;
+    background-color:  #CCCCCC;
+    float:left;
+    padding-left:10px;
+    padding-right:10px;    
+}
+
+.RightColumn
+{
+    width: 180px; 
+    background-color:  #CCCCCC;
+    float:left;
+    
+}
+
+.Field
+{
+    float:left;
+    width:100px;
+}
+
+.Field
+{
+    float:left;
+    width:100px;
+}
+
+.FieldText
+{
+    float:right;
+    width:367px;
+}
+
+.StatusLeftColumn
+{
+    width:305px;
+    float:left; 
+}
+
+.StatusInputRowTitle
+{
+    width:300px;
+    padding-left:5px; 
+    float:left;  
+}
+
+.StatusInputRowTitleLeftPad
+{
+    width:285px;
+    padding-left:15px; 
+    float:left;  
+}
+
+.Statusblank10
+{
+    width:100%;
+    height:10px;
+    float:left;
+}
+
+.Statusblank30
+{
+    width:100%;
+    height:30px;
+    float:left;
+}
+
+.StatusRightColumn
+{
+    width:260px;    
+    float:right;
+}
+
+.StatusFullColumn
+{
+    width:575px;    
+    float:left;
+}
+
+.FullRow
+{
+    width:700px;
+    float:left;
+}
+
+.WindowRow
+{
+    width:720px;
+    float:left;
+}
+
+.WindowBlank
+{
+    width:700px;
+    height:10px;
+    float:left;
+}
+
+.paddingBottom
+{
+    padding-bottom:10px;
+}
+
+.paddingBottom5
+{
+    padding-bottom:5px;
+}
+
+.BottomLine
+{
+    border-bottom-style: solid; 
+    border-bottom-width: 1px; 
+    border-bottom-color: #808080
+}
+
+.paddingTop
+{
+    padding-top:10px;
+}
+.masterGrid
+{
+    width:560px;
+    float:left;  
+}
+
+.Grid
+{
+    width:100%;
+    padding-left:5px; 
+    padding-right:5px; 
+    float:left;  
+}
+
+.GridNoPadding
+{
+    width:550px; 
+    float:left;
+    background-color: #f4ede1
+}
+
+.GridNoPaddingNoColor
+{
+    width:550px; 
+    float:left;
+}
+
+.InGridTitle
+{
+    width:550px;
+    padding-left:15px; 
+    padding-right:5px; 
+    float:left;
+}
+
+.PaddGrid
+{
+    width:540px;
+    padding-left:25px; 
+    padding-right:5px; 
+    float:left;  
+}
+
+.BenfFirstName
+{
+    width:90px;
+    float:left; 
+}
+
+.BenfMI
+{
+    width:25px;
+    float:left; 
+}
+
+.BenfLastName
+{
+    width:100px;
+    float:left; 
+}
+
+.BenfName
+{
+    width:445;
+    float:left; 
+}
+
+
+.BenfDOB
+{
+    width:80px;
+    float:left; 
+}
+
+.BenfRelation
+{
+    width:150px;
+    float:left; 
+}
+
+.BenfPercentage
+{
+    width:50px;
+    float:left; 
+}
+
+.BenfRemove
+{
+    width:45px;
+    float:left; 
+}
+
+
+.BenfFirstName2
+{
+    width:80px;
+    float:left; 
+    background-color:Yellow;
+}
+
+.BenfMI2
+{
+    width:25px;
+    float:left; 
+    background-color:Red;
+}
+
+.BenfLastName2
+{
+    width:100px;
+    float:left; 
+    background-color:Blue;
+}
+
+.BenfDOB2
+{
+    width:80px;
+    float:left; 
+    background-color:Green;
+}
+
+.BenfRelation2
+{
+    width:150px;
+    float:left; 
+}
+
+.BenfPercentage2
+{
+    width:50px;
+    float:left; 
+    background-color:Fuchsia;
+}
+
+.BenfRemove2
+{
+    width:45px;
+    float:left; 
+    background-color:Aqua;
+}
+
+.wizatdPage
+{
+    width:85px;
+    float:left; 
+}
+

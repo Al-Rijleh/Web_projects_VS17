@@ -1,0 +1,64 @@
+body
+{
+    margin:0px;
+}
+
+.wrapper
+{
+    width:795px;    
+}
+
+.menuholder
+{
+    width:785px;
+    padding-left:10px;
+    background-image: url(/karama/Images/WinSubTab.gif);
+}
+
+
+.GenralRow
+{
+    width:785px;
+    padding-left:10px;
+    float:left;
+}
+
+.bottom_border
+{
+    BORDER-BOTTOM: silver 1px solid;
+}
+
+.LeftDataSection
+{
+    width:387px;
+    float:left;    
+}
+
+.RightDataSection
+{
+    width:387px;
+    float:right;
+}
+
+.LeftDataSectiontext
+{
+    width:150px;
+    float:left;
+}
+
+.LeftDataSectiontext2
+{
+    width:100px;
+    float:left;
+}
+.LeftDataSectionBox
+{
+    float:right;
+    width:235px;
+}
+
+.FullDataRow
+{
+    width:385px;
+    float:left;
+}

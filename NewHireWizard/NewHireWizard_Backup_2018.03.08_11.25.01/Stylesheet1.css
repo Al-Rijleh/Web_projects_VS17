@@ -1,0 +1,178 @@
+body
+{
+}
+
+.FullPage
+{
+    width:775px;     
+}
+
+A:link { COLOR: #24248F; TEXT-DECORATION: none }
+A:visited { COLOR: #24248F; TEXT-DECORATION: none }
+A:hover { COLOR: red; TEXT-DECORATION: none }
+
+
+.FontSmall{
+	font-family: Arial, Sans-Serif;
+	font-size: 9pt;
+}
+
+.FontSmall10{
+	font-family: Arial, Sans-Serif;
+	font-size: 10pt;
+}
+
+.FontMedium{
+	font-family: Arial, Sans-Serif;
+	font-size: 11pt;
+}
+
+.FontLarge{
+	font-family: Arial, Sans-Serif;
+	font-size: 13pt;
+}
+
+.FontTitle{
+	font-family: Arial Narrow, Sans-Serif;
+	font-size: 20pt;
+}
+
+.FontSmallTitle{
+	font-family: Arial Narrow, Sans-Serif;
+	font-size: 14pt;
+}
+
+
+.InputRow
+{
+    width:750px;
+    padding-left:5px; 
+    padding-right:5px; 
+    float:left;  
+}
+
+.InputRowNoPadding
+{
+    width:739px; 
+    float:left;  
+}
+
+.StatusInputRowTitle
+{
+    width:750px;
+    padding-left:5px; 
+    padding-right:5px; 
+    float:left;  
+}
+
+.StatusInputRowTitleLeftPad
+{
+    width:735px;
+    padding-left:15px; 
+    float:left;  
+}
+
+.ButtonRow
+{
+    width:720px;
+    padding-left:15px; 
+    padding-right:5px; 
+    float:left;  
+}
+
+.InputLabel
+{
+    width:160px;
+    float:left; 
+    vertical-align: middle
+}
+
+
+
+.InputValue
+{
+    width:220px;
+    float:left; 
+}
+
+.ChangeCommand
+{
+    width:100px;
+    float:left; 
+    vertical-align: middle
+}
+
+.InputValidator
+{
+    width:350px;
+    float:left; 
+    vertical-align: middle
+}
+
+.Blank10
+{
+    width:750px;    
+    height:10px;
+    float:left; 
+}
+
+.Blank20
+{
+    width:750px;    
+    height:20px;
+    float:left; 
+}
+
+.Statusblank10
+{
+    width:750px;    
+    height:10px;
+    float:left; 
+}
+
+.TeleriksWindowBlank5
+{
+    width:450px;
+    height:5px;
+}
+
+
+.TeleriksWindowRow
+{
+    width:430px;
+    padding-left : 10px;
+    padding-right : 10px;
+}
+
+.NoBorder
+{
+    background-color: #FFFFFF;
+	border-top-width: 0px; 
+	border-left-width: 0px; 
+	border-left-color: #000000; 
+	border-bottom-width: 0px; 
+	border-bottom-color: #000000; 
+	border-top-color: #000000; 
+	border-right-width: 0px; 
+	border-right-color: #000000;	
+}	
+
+.InsideTitle
+{
+    font-family: Arial, Sans-Serif;
+	font-size: 11pt;
+	font-weight: bold;
+	color: #666666; 
+}
+
+.Header2
+{
+    background-color:#F2E9A5;    
+	font-weight:lighter;
+	float:left
+}
+
+.requiredSymbol
+{
+    color:Red;
+}

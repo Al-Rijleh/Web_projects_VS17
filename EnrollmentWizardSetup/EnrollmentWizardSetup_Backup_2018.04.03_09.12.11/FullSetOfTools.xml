@@ -1,0 +1,79 @@
+<root>
+	
+
+	
+
+	<tools name="InsertToolbar" dockable="true" enabled="true" >
+		<tool name="InsertSymbol" />
+		<tool name="AjaxSpellCheck"/>		
+    		<tool name="Help" />
+	</tools>
+
+	<tools enabled="true">		
+		<tool name="Undo" />
+		<tool name="Redo" />
+		<tool separator="true"/>
+		<tool name="Cut" />
+		<tool name="Copy" />
+		<tool name="Paste" shortcut="CTRL+!"/>
+		<tool separator="true"/>	
+		<tool name="Print" />
+		<tool name="FindAndReplace" />
+		<tool name="SelectAll" />
+		<tool separator="true"/>		
+		<tool name="InsertHorizontalRule" />		
+		<tool separator="true"/>		
+		
+	</tools>
+
+	<tools enabled="true" dockable="true">
+		<tool name="Bold" />
+		<tool name="Italic" />
+		<tool name="Underline" />
+		<tool name="StrikeThrough" />
+		<tool separator="true"/>
+		<tool name="JustifyLeft" />
+		<tool name="JustifyCenter" />
+		<tool name="JustifyRight" />
+		<tool name="JustifyFull" />
+		<tool name="JustifyNone" />
+
+		<tool separator="true"/>
+		<tool name="Superscript" />
+		<tool name="Subscript" />
+
+		<tool separator="true"/>
+		<tool name="ConvertToLower" />
+		<tool name="ConvertToUpper" />
+		
+		<tool name="Indent" />
+		<tool name="Outdent" />
+		<tool name="InsertOrderedList" />
+		<tool name="InsertUnorderedList"/>
+
+		<tool name="AbsolutePosition" />
+		<tool name="LinkManager" />
+		<tool name="Unlink" />
+    <tool name="ToggleTableBorder" />
+    <tool name="ToggleScreenMode" />
+	</tools>
+
+	<tools name="DropdownToolbar" dockable="true" >
+		<tool name="ForeColor" />
+		<tool name="BackColor"/>
+		<tool separator="true"/>
+		<tool name="FontName"/>
+		<tool name="FontSize"/>
+		<tool name="RealFontSize"/>
+		<tool name="ApplyClass"/>
+		<tool name="InsertCustomLink"/>
+		<tool name="FormatBlock"/>
+    <tool name="Zoom" />
+	</tools>
+ 
+
+	
+	
+
+	
+</root>

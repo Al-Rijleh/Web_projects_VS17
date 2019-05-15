@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{967B5BA6-4C97-4FFC-87A9-5929F6FBABC0}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EnrollmentWizardSetup</RootNamespace>
+    <AssemblyName>EnrollmentWizardSetup</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BASUSA, Version=1.0.5091.22655, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\BAS_Classes_VS13\BASUSA\bin\Release\BASUSA.dll</HintPath>
+    </Reference>
+    <Reference Include="Bas_Utility, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Bas_Utility - 2018.1.117.40\bin\Bas_Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="ErrorHandeler_10">
+      <HintPath>..\ErrorHandeler_10\bin\ErrorHandeler_10.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.DataAccess, Version=10.2.0.100, Culture=neutral, PublicKeyToken=89b483f429c47342" />
+    <Reference Include="SQLStatic, Version=1.0.3937.17008, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\BAS_Classes\SQLStatic\bin\Release\SQLStatic.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Telerik.Web.Design, Version=2019.1.215.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Telerik_DLLs_2019\Telerik.Web.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Web.Spreadsheet, Version=2019.1.215.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\RCAJAX\2019.1.215.40\AdditionalLibraries\Bin40\Telerik.Web.Spreadsheet.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Web.UI, Version=2019.1.215.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\RCAJAX\2019.1.215.40\Telerik.Web.UI.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Web.UI.Skins, Version=2019.1.215.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\RCAJAX\2019.1.215.40\Telerik.Web.UI.Skins.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Core, Version=2019.1.213.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\RCAJAX\2019.1.215.40\AdditionalLibraries\Bin40\Telerik.Windows.Documents.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Flow, Version=2019.1.213.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\RCAJAX\2019.1.215.40\AdditionalLibraries\Bin40\Telerik.Windows.Documents.Flow.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Spreadsheet, Version=2019.1.213.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\RCAJAX\2019.1.215.40\AdditionalLibraries\Bin40\Telerik.Windows.Documents.Spreadsheet.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml, Version=2019.1.213.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\RCAJAX\2019.1.215.40\AdditionalLibraries\Bin40\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Zip, Version=2019.1.213.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\RCAJAX\2019.1.215.40\AdditionalLibraries\Bin40\Telerik.Windows.Zip.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Template, Version=1.0.3093.16374, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Template\bin\Template.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Alerts.aspx" />
+    <Content Include="Classes.aspx" />
+    <Content Include="DepAuditWizSetup.aspx" />
+    <Content Include="main2.css" />
+    <Content Include="Properties.aspx" />
+    <Content Include="SPN.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Wellnessplan.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Alerts.aspx.cs">
+      <DependentUpon>Alerts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Alerts.aspx.designer.cs">
+      <DependentUpon>Alerts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Beneficiaries.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Beneficiaries.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Beneficiaries.aspx.designer.cs">
+      <DependentUpon>Beneficiaries.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Classes.aspx.cs">
+      <DependentUpon>Classes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Classes.aspx.designer.cs">
+      <DependentUpon>Classes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cvrg_Grp_Msgs.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Cvrg_Grp_Msgs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cvrg_Grp_Msgs.aspx.designer.cs">
+      <DependentUpon>Cvrg_Grp_Msgs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cvrg_msg.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>cvrg_msg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cvrg_msg.aspx.designer.cs">
+      <DependentUpon>cvrg_msg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Data.cs" />
+    <Compile Include="DepAuditWizSetup.aspx.cs">
+      <DependentUpon>DepAuditWizSetup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DepAuditWizSetup.aspx.designer.cs">
+      <DependentUpon>DepAuditWizSetup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DependentInfo.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>DependentInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DependentInfo.aspx.designer.cs">
+      <DependentUpon>DependentInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Extra.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Extra.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Extra.aspx.designer.cs">
+      <DependentUpon>Extra.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FSALimits.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>FSALimits.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FSALimits.aspx.designer.cs">
+      <DependentUpon>FSALimits.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Instructions.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Instructions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Instructions.aspx.designer.cs">
+      <DependentUpon>Instructions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Personal_Information.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Personal_Information.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Personal_Information.aspx.designer.cs">
+      <DependentUpon>Personal_Information.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PrePost.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>PrePost.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PrePost.aspx.designer.cs">
+      <DependentUpon>PrePost.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties.aspx.cs">
+      <DependentUpon>Properties.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Properties.aspx.designer.cs">
+      <DependentUpon>Properties.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SetupTabStrip.ascx.cs">
+      <DependentUpon>SetupTabStrip.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SetupTabStrip.ascx.designer.cs">
+      <DependentUpon>SetupTabStrip.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Setup_open_Enrollment.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Setup_open_Enrollment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Setup_open_Enrollment.aspx.designer.cs">
+      <DependentUpon>Setup_open_Enrollment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="SkippedPlans.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>SkippedPlans.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SkippedPlans.aspx.designer.cs">
+      <DependentUpon>SkippedPlans.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SPN.aspx.cs">
+      <DependentUpon>SPN.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SPN.aspx.designer.cs">
+      <DependentUpon>SPN.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Status.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Status.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Status.aspx.designer.cs">
+      <DependentUpon>Status.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Summary_Authorization.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Summary_Authorization.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Summary_Authorization.aspx.designer.cs">
+      <DependentUpon>Summary_Authorization.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="verify.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>verify.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="verify.aspx.designer.cs">
+      <DependentUpon>verify.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm2.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm2.aspx.designer.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm3.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>WebForm3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm3.aspx.designer.cs">
+      <DependentUpon>WebForm3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Welcome.aspx.cs">
+      <DependentUpon>Welcome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Welcome.aspx.designer.cs">
+      <DependentUpon>Welcome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Wellnessplan.aspx.cs">
+      <DependentUpon>Wellnessplan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Wellnessplan.aspx.designer.cs">
+      <DependentUpon>Wellnessplan.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Beneficiaries.aspx" />
+    <Content Include="Cvrg_Grp_Msgs.aspx" />
+    <Content Include="cvrg_msg.aspx" />
+    <Content Include="DependentInfo.aspx" />
+    <Content Include="EnrollmentWizardSetup.css" />
+    <Content Include="Extra.aspx" />
+    <Content Include="FSALimits.aspx" />
+    <Content Include="FullSetOfTools.xml" />
+    <Content Include="Global.asax" />
+    <Content Include="Instructions.aspx" />
+    <Content Include="Personal_Information.aspx" />
+    <Content Include="PrePost.aspx" />
+    <Content Include="SetupTabStrip.ascx" />
+    <Content Include="Setup_open_Enrollment.aspx" />
+    <Content Include="Site1.Master" />
+    <Content Include="SkippedPlans.aspx" />
+    <Content Include="Status.aspx" />
+    <Content Include="Summary_Authorization.aspx" />
+    <Content Include="verify.aspx" />
+    <Content Include="WebForm2.aspx" />
+    <Content Include="WebForm3.aspx" />
+    <Content Include="Welcome.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App_Data\RadSpell\en-US.tdf" />
+    <None Include="Properties\PublishProfiles\Profile1.pubxml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49573</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/web_projects/EnrollmentWizardSetup</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

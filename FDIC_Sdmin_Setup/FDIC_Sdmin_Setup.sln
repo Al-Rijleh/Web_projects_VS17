@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FDIC_Sdmin_Setup", "FDIC_Sdmin_Setup.csproj", "{F601C98D-B800-4046-BA6C-9BEC9C526B4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F601C98D-B800-4046-BA6C-9BEC9C526B4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F601C98D-B800-4046-BA6C-9BEC9C526B4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F601C98D-B800-4046-BA6C-9BEC9C526B4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F601C98D-B800-4046-BA6C-9BEC9C526B4C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3C1AE87-6820-47D7-B111-C1CEC9DAE95E}
+	EndGlobalSection
+EndGlobal

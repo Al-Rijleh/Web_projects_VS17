@@ -286,5 +286,12 @@ namespace StartLifeEventv1
             return SQLStatic.StoredProcedure.ExecuteFunction("pkg_class_code.is_currently_retiree", "number", al).ToString();
         }
 
+        public static void SetLifeEventProcessing_year(string session_id_)
+        {
+            ArrayList al = new ArrayList(1);
+            al.Add(SQLStatic.StoredProcedure.OneParamerer("session_id_", "in", "varchar2", session_id_));
+            SQLStatic.StoredProcedure.ExecuteNonQueryProcedure("pkg_Enrollment_Wizard_LE.SetLifeEventProcessing_year", al);
+        }
+
     }
 }

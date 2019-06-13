@@ -33,8 +33,8 @@ namespace DependentsAuditGetDocuments
 
         protected void Application_Error(object sender, EventArgs e)
         {
-            Server.Transfer("/web_projects/ErrorHandeler_10/ErrorPage.aspx");
-            Server.ClearError();
+            //Server.Transfer("/web_projects/ErrorHandeler_10/ErrorPage.aspx");
+            //Server.ClearError();
         }
 
         protected void Session_End(object sender, EventArgs e)

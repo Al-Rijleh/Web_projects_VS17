@@ -159,6 +159,9 @@ namespace StartLifeEventv1
                 Data.save_le_ee_session_info(session_id, ViewState["Selected_Account_Number"].ToString(), ViewState["Employee_Number"].ToString(),
                            txtLifeEventDate.SelectedDate.Value.ToShortDateString(), "", ddlItem.SelectedValue, lblAcknowledgeText.Text,
                            ViewState["User_Name"].ToString());
+                Data.save_le_ee_session_info(session_id, ViewState["Selected_Account_Number"].ToString(), ViewState["Employee_Number"].ToString(),
+                           txtLifeEventDate.SelectedDate.Value.ToShortDateString(), "", ddlItem.SelectedValue, lblAcknowledgeText.Text,
+                           ViewState["User_Name"].ToString());
                 ////string hiddiv = "<script>Javescript:hidfax('0')</script>";
                 ////Page.ClientScript.RegisterStartupScript(Page.GetType(), "hiddiv", hiddiv);
                 RadWizard1.ActiveStepIndex = RadWizard1.WizardSteps.IndexOf(RadWizard1.WizardSteps[3]);
@@ -237,7 +240,7 @@ namespace StartLifeEventv1
             DataTable tbl = Data.Get_le_ee_session_info(ViewState["Selected_Account_Number"].ToString(), ViewState["Processing_Year"].ToString(), ViewState["Employee_Number"].ToString());
             if (tbl.Rows.Count > 0)
             {
-
+                Data.SetLifeEventProcessing_year(session_id);
                 tbl.Rows[0]["notes"] = BASUSA.MiscTidBit.HTMLToText(tbl.Rows[0]["notes"].ToString());
                 tbl.AcceptChanges();
 

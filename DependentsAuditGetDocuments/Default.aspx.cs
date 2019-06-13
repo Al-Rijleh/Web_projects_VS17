@@ -19,7 +19,6 @@ namespace DependentsAuditGetDocuments
             #region BasTemplate
             if (!IsPostBack)
             {
-
                 if ((Request.Params["SkipCheck"] == null) || (Request.Params["SkipCheck"] != "YES"))
                 {
                     SQLStatic.Sessions.SetSessionValue(Request.Cookies["Session_ID"].Value.ToString(), "main_run", Request.Path + "?SkipCheck=YES");
@@ -356,7 +355,10 @@ namespace DependentsAuditGetDocuments
 
         protected void btnDone_Click(object sender, EventArgs e)
         {
-            Response.Redirect(ViewState["back"].ToString(), true);
+            lblScript.Text = "<Script>GotoDepMain() </Script>";
+            //Response.Redirect(ViewState["back"].ToString(), true);
+            //Response.Redirect("/WEB_PROJECTS/DEPENDENTS_MAINTENANCE/DefaultOld.aspx?SkipCheck=YES", true);
+            
         }
 
         protected void rgFax_ItemCommand(object sender, GridCommandEventArgs e)

@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F601C98D-B800-4046-BA6C-9BEC9C526B4C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FDIC_Sdmin_Setup</RootNamespace>
+    <AssemblyName>FDIC_Sdmin_Setup</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bas_Utility, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Bas_Utility---2019.1.215.40\bin\Bas_Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="ErrorHandeler_10">
+      <HintPath>..\ErrorHandeler_10\bin\ErrorHandeler_10.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\Progress\Telerik UI for ASP.NET AJAX R1 2019\AdditionalLibraries\Bin40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.DataAccess, Version=10.2.0.100, Culture=neutral, PublicKeyToken=89b483f429c47342">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\EnrollmentWizard\bin\Oracle.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLStatic">
+      <HintPath>..\..\BAS_Classes\SQLStatic\bin\Debug\SQLStatic.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Telerik.Documents.SpreadsheetStreaming">
+      <HintPath>..\..\..\Program Files (x86)\Progress\Telerik UI for ASP.NET AJAX R1 2019\AdditionalLibraries\Bin40\Telerik.Documents.SpreadsheetStreaming.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Web.Design, Version=2019.1.215.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\RCAJAX\2019.1.215.40\Telerik.Web.Design.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Web.Spreadsheet, Version=2019.1.215.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\RCAJAX\2019.1.215.40\AdditionalLibraries\Bin40\Telerik.Web.Spreadsheet.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Web.UI, Version=2019.1.215.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\RCAJAX\2019.1.215.40\Telerik.Web.UI.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Web.UI.Skins, Version=2019.1.215.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\RCAJAX\2019.1.215.40\Telerik.Web.UI.Skins.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Core, Version=2019.1.213.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\RCAJAX\2019.1.215.40\AdditionalLibraries\Bin40\Telerik.Windows.Documents.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Flow, Version=2019.1.213.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\RCAJAX\2019.1.215.40\AdditionalLibraries\Bin40\Telerik.Windows.Documents.Flow.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Spreadsheet, Version=2019.1.213.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\RCAJAX\2019.1.215.40\AdditionalLibraries\Bin40\Telerik.Windows.Documents.Spreadsheet.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml, Version=2019.1.213.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\RCAJAX\2019.1.215.40\AdditionalLibraries\Bin40\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Zip, Version=2019.1.213.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\RCAJAX\2019.1.215.40\AdditionalLibraries\Bin40\Telerik.Windows.Zip.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Template">
+      <HintPath>..\Template\bin\Template.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="Default.css" />
+    <Content Include="Detal.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="images\AddBlue.jpg" />
+    <Content Include="images\Add_Tile.png" />
+    <Content Include="images\Add_Tile1.png" />
+    <Content Include="images\Add_Tile3.png" />
+    <Content Include="images\Add_Tile_Hover.png" />
+    <Content Include="images\csv.png" />
+    <Content Include="images\docx.png" />
+    <Content Include="images\Excel_BIFF.png" />
+    <Content Include="images\Excel_ExcelML.png" />
+    <Content Include="images\Excel_HTML.png" />
+    <Content Include="images\Excel_XLSX.png" />
+    <Content Include="images\Favorites_1.png" />
+    <Content Include="images\Favorites_2.png" />
+    <Content Include="images\Favorites_green.png" />
+    <Content Include="images\Favorites_green_resized.png" />
+    <Content Include="images\Favorites_yellow.png" />
+    <Content Include="images\Favorites_yellow_5.png" />
+    <Content Include="images\Favorites_yellow_7.png" />
+    <Content Include="images\file-extension-csv-icon_bigger.png" />
+    <Content Include="images\file-extension-docx-icon_bigger.png" />
+    <Content Include="images\file-extension-pdf-icon_bigger.png" />
+    <Content Include="images\filter-delete-16x16.gif" />
+    <Content Include="images\generating-report.gif" />
+    <Content Include="images\generating-report_transp.gif" />
+    <Content Include="images\Help.png" />
+    <Content Include="images\help_resized.png" />
+    <Content Include="images\help_resized3.png" />
+    <Content Include="images\HomeButton_10px.png" />
+    <Content Include="images\HomeButton_10px2.png" />
+    <Content Include="images\Home_18px.png" />
+    <Content Include="images\load.gif" />
+    <Content Include="images\load_old.gif" />
+    <Content Include="images\Minus_Tile.png" />
+    <Content Include="images\Minus_Tile1.png" />
+    <Content Include="images\Minus_Tile3.png" />
+    <Content Include="images\onebit_46.png" />
+    <Content Include="images\PDF-icon.png" />
+    <Content Include="images\progress_bar.gif" />
+    <Content Include="images\progress_bar_transparent2.gif" />
+    <Content Include="images\ReportsGenerator_Overlay1.jpg" />
+    <Content Include="images\ReportsGenerator_Overlay1_Small.jpg" />
+    <Content Include="images\ReportsGenerator_Overlay2.jpg" />
+    <Content Include="images\ReportsGenerator_Overlay2_small.jpg" />
+    <Content Include="images\ReportsGenerator_Overlay_Button.png" />
+    <Content Include="images\ReportsGenerator_Overlay_Button_Small.png" />
+    <Content Include="images\star.png" />
+    <Content Include="images\star_green.png" />
+    <Content Include="images\star_grey.png" />
+    <Content Include="images\Star_Grey_16.png" />
+    <Content Include="images\star_yellow.png" />
+    <Content Include="images\Star_Yellow_1.png" />
+    <Content Include="images\Star_Yellow_16.png" />
+    <Content Include="images\Star_Yellow_19.png" />
+    <Content Include="images\Star_Yellow_2.png" />
+    <Content Include="images\Star_Yellow_3.png" />
+    <Content Include="images\star_yellow_add.png" />
+    <Content Include="images\star_yellow_delete.png" />
+    <Content Include="images\star_yellow_n.png" />
+    <Content Include="images\Star_Yellow_New.png" />
+    <Content Include="images\Star_Yellow_nw.png" />
+    <Content Include="images\telerik_doc.png" />
+    <Content Include="images\xlsx.png" />
+    <Content Include="NewAdmin.aspx" />
+    <Content Include="RemoveAdmin.aspx" />
+    <Content Include="SuperUser.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Data.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Detal.aspx.cs">
+      <DependentUpon>Detal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Detal.aspx.designer.cs">
+      <DependentUpon>Detal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="NewAdmin.aspx.cs">
+      <DependentUpon>NewAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewAdmin.aspx.designer.cs">
+      <DependentUpon>NewAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RemoveAdmin.aspx.cs">
+      <DependentUpon>RemoveAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RemoveAdmin.aspx.designer.cs">
+      <DependentUpon>RemoveAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SuperUser.aspx.cs">
+      <DependentUpon>SuperUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SuperUser.aspx.designer.cs">
+      <DependentUpon>SuperUser.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\PublishProfiles\Profile1.pubxml" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51738</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/web_projects/FDIC_Sdmin_Setup</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

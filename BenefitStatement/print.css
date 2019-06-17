@@ -1,0 +1,581 @@
+﻿body
+{
+      
+}
+
+.Frame
+{
+    BORDER-RIGHT: black 1px solid; 
+    BORDER-TOP: black 1px solid; 
+    BORDER-LEFT: black 1px solid; 
+    BORDER-BOTTOM: black 1px solid;
+}
+
+.FullPage
+{
+    width:770px;
+    margin-left :0px;
+    float:left;     
+}
+
+.DataPage
+{
+    width:560px;
+    margin-left :20px;
+    float:left;     
+}
+
+.DataPagePadding
+{
+    width:750px;
+    float:left; 
+    padding-left:5px;    
+}
+
+.FullEnroolSectio
+{
+    width:551px;
+    float:left; 
+     
+}
+
+.FullEnroolSectionShort
+{
+    width:189px;
+    float:left; 
+     
+}
+
+.SubEnroolSectio
+{
+    width:238px;
+    float:left;   
+}
+
+.SubEnroolSectionlong
+{
+    width:161px;
+    float:left;
+    height: 19px;
+}
+
+
+
+A:link { COLOR: #24248F; TEXT-DECORATION: none }
+A:visited { COLOR: #24248F; TEXT-DECORATION: none }
+A:hover { COLOR: red; TEXT-DECORATION: none }
+
+
+.FontSmall{
+	font-family: Arial, Sans-Serif;
+	font-size: 8pt;	
+}
+
+.FontBold
+{
+    font-weight:bold
+}
+
+.FontSmall10{
+	font-family: Arial, Sans-Serif;
+	font-size: 9pt;
+}
+
+.FontMedium{
+	font-family: Arial, Sans-Serif;
+	font-size: 10pt;
+}
+
+.FontLarge{
+	font-family: Arial, Sans-Serif;
+	font-size: 10pt;
+}
+
+.FontTitle{
+	font-family: Arial Narrow, Sans-Serif;
+	font-size: 20pt;
+}
+
+.FontSmallTitle{
+	font-family: Arial Narrow, Sans-Serif;
+	font-size: 14pt;
+}
+
+.blank10
+{
+    width:150px;
+    height:10px;
+    float:left;
+}
+
+.blank30
+{
+    width:150px;
+    height:30px
+}
+
+.Header
+{
+    width:950px;
+    height:70px;
+    background-color:#EAF1DD;
+    padding-left:10px; 
+    padding-right:10px;  
+    padding-top:5px; 
+}
+
+.FullBudy
+{
+    width:965px;
+    padding-left:5px; 
+    padding-right:5px;
+}
+
+.HeaderSec1
+{
+    width:190px;
+    float:left;
+    background-color:#EAF1DD;
+}
+.Section2
+{
+    width:420px;
+    float:left;
+    background-color:#EAF1DD;
+}
+
+.HeaderSec2
+{
+    width:188px;
+    float:left;
+    background-color:#EAF1DD;
+}
+
+.Section3
+{
+    width:320px;
+    float:right;
+    background-color:#EAF1DD;
+}
+.HeaderSec3
+{
+    width:230px;
+    float:left;
+    background-color:#EAF1DD;
+}
+
+.HeaderSec4
+{
+    width:109px;
+    float:left;
+    background-color:#EAF1DD;
+}
+
+.HeaderSec5
+{
+    width:210px;
+    float:left;
+    background-color:#EAF1DD;
+}
+
+.RightPanel
+{
+    width:250px;
+    float:right;
+    background-color:#EAF1DD;
+}
+
+.LeftPanel
+{
+    width:688px;
+    float:left;
+}
+
+.RightPanelRow
+{
+    width:240px;
+    padding-left:5px; 
+    padding-right:5px;  
+    padding-top:5px;   
+}
+
+.LeftPanelRow
+{
+    width:678px;
+    padding-left:5px; 
+    padding-right:5px;  
+    padding-top:5px;
+}
+
+.RightPanelBlank10
+{
+    width:240px;
+    height:10px;
+}
+
+.PageJumpTitle
+{
+    width:195px;
+    padding-left:50px; 
+    padding-right:5px;  
+    padding-top:5px;  
+}
+
+
+.FullInputRow
+{
+    width:533px;
+    float:left;  
+}
+
+.InputRowTitle
+{
+    width:750px;
+    padding-left:5px; 
+    padding-right:5px; 
+    float:left;  
+}
+
+.InputRowTitleLeftPad
+{
+    width:513px;
+    padding-left:15px; 
+    padding-right:5px; 
+    float:left;  
+}
+
+.InputRowTitle
+{
+    width:553px;
+    padding-left:5px; 
+    padding-right:5px; 
+    float:left;  
+}
+
+.InputRow
+{
+    width:553px;
+    padding-left:5px; 
+    padding-right:5px; 
+    height:23px;
+    float:left;  
+}
+
+
+
+.InputRowNoPadding
+{
+    width:563px;
+    float:left;  
+}
+
+
+.InputLabel
+{
+    width:100px;
+    float:left; 
+    height:23px;
+    vertical-align: middle
+}
+
+.InputValue
+{
+    width:220px;
+    float:left; 
+    height:23px;
+}
+
+.InputValidator
+{
+    width:200px;
+    float:right; 
+    height:23px; 
+    vertical-align: middle
+}
+
+.WholeLeftColumn
+{
+    width: 180px;
+    float:left; 
+    height:405px;
+    background-color: #E5F1DC;   
+}
+
+.MainLeftColumn
+{
+    width: 160px;
+    background-color: #E5F1DC;
+    float:left;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.LeftColumn
+{
+    width: 160px;background-color: #E5F1DC;float:left;
+}
+
+.MainDataColumn
+{
+    width: 303px; 
+    float:left;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.WelcomeMainDataColumn
+{
+    width: 303px; 
+    float:left;
+    
+}
+
+
+.NewMainDataColumnNoPadding
+{
+    width: 553px; 
+    float:left;
+}
+
+
+.NewMainDataColumn
+{
+    width: 553px; 
+    float:left;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.Datablank10
+{
+    width: 500px; 
+    float:left;
+    height:10px;
+}
+
+.Datablank30
+{
+    width: 500px; 
+    float:left;
+    height:30px;
+}
+
+.Datablank50
+{
+    width: 553px; 
+    float:left;
+    height:50px;
+}
+
+.NewDataColumn
+{
+    width: 553px; 
+    float:left;
+}
+
+.DataColumn
+{
+    width: 280px; 
+    float:left;
+}
+
+.PictureColumn
+{
+    width: 250px; 
+    float:right;
+}
+
+.MainRightColumnNoPadding
+{
+    width: 200px; 
+    height: 405px;
+    background-color:  #CAE1E1;
+    float:left; 
+}
+
+.MainRightColumnExtender
+{
+    width: 200px; 
+    background-color:  #CAE1E1;
+    float:left; 
+}
+
+.MainRightColumn
+{
+    width: 180px; 
+    height: 405px;
+    background-color:  #CAE1E1;
+    float:left;
+    padding-left:10px;
+    padding-right:10px;    
+}
+
+.RightColumn
+{
+    width: 180px; 
+    background-color:  #CAE1E1;
+    float:left;
+    
+}
+
+.Field
+{
+    float:left;
+    width:100px;
+}
+
+.Field
+{
+    float:left;
+    width:100px;
+}
+
+.FieldText
+{
+    float:right;
+    width:367px;
+}
+
+.StatusLeftColumn
+{
+    width:305px;
+    float:left; 
+}
+
+.StatusInputRowTitle
+{
+    width:300px;
+    padding-left:5px; 
+    float:left;  
+}
+
+.StatusInputRowTitleLeftPad
+{
+    width:285px;
+    padding-left:15px; 
+    float:left;  
+}
+
+.Statusblank10
+{
+    width:275px;
+    height:10px;
+    float:left;
+}
+
+.Statusblank30
+{
+    width:275;
+    height:30px;
+    float:left;
+}
+
+.StatusRightColumn
+{
+    width:260px;    
+    float:right;
+}
+
+.StatusFullColumn
+{
+    width:575px;    
+    float:left;
+}
+
+.FullRow
+{
+    width:700px;
+    float:left;
+}
+
+.WindowRow
+{
+    width:720px;
+    float:left;
+}
+
+.WindowBlank
+{
+    width:700px;
+    height:10px;
+    float:left;
+}
+
+.Grid
+{
+    width:560px;
+    padding-left:5px; 
+    padding-right:5px; 
+    float:left;  
+}
+
+.GridNoPadding
+{
+    width:550px; 
+    float:left;
+    background-color: #f4ede1
+}
+
+.InGridTitle
+{
+    width:550px;
+    padding-left:15px; 
+    padding-right:5px; 
+    float:left;
+}
+
+.PaddGrid
+{
+    width:540px;
+    padding-left:25px; 
+    padding-right:5px; 
+    float:left;  
+}
+
+.BenfFirstName
+{
+    width:90px;
+    float:left; 
+}
+
+.BenfMI
+{
+    width:25px;
+    float:left; 
+}
+
+.BenfLastName
+{
+    width:100px;
+    float:left; 
+}
+
+.BenfDOB
+{
+    width:80px;
+    float:left; 
+}
+
+.BenfRelation
+{
+    width:150px;
+    float:left; 
+}
+
+.BenfPercentage
+{
+    width:50px;
+    float:left; 
+}
+
+.BenfRemove
+{
+    width:45px;
+    float:left; 
+}
+
+.Header2
+{
+    background-color:#F2E9A5;    
+	font-weight:lighter;
+}

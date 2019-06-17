@@ -19,7 +19,7 @@
 	<div>
 	</div>
 	<telerik:RadEditor ID="RadEditor1" Runat="server"  
-        Height="780px" Width="1000px" Skin="Default">
+        Height="781px" Width="1000px" Skin="Default">
         <Content>
 </Content>
         <TrackChangesSettings CanAcceptTrackChanges="False" />

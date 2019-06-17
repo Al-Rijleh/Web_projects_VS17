@@ -15,7 +15,7 @@
 		//Put your JavaScript code here.
     </script>
 	<telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
-	</telerik:RadAjaxManager>
+	</telerik:RadAjaxManager>  
 	<div>    
 	</div>
 	<telerik:RadEditor ID="RadEditor1" Runat="server"  
